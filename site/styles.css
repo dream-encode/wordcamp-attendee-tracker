@@ -1,0 +1,667 @@
+/*
+ * Tokens follow the data-viz reference palette so the page chrome and the growth chart
+ * are one system. Dark mode is a selected set of steps for the dark surface, not an
+ * inverted flip: the OS media query sets the default, and the theme toggle stamps
+ * data-theme on <html>, which must win in both directions.
+ */
+
+:root {
+	color-scheme: light;
+
+	--plane: #f9f9f7;
+	--surface: #fcfcfb;
+	--ink: #0b0b0b;
+	--ink-secondary: #52514e;
+	--ink-muted: #898781;
+	--gridline: #e1e0d9;
+	--baseline: #c3c2b7;
+	--border: rgba( 11, 11, 11, 0.10 );
+	--series-1: #2a78d6;
+	--series-wash: rgba( 42, 120, 214, 0.10 );
+	--success: #006300;
+	--hover-wash: rgba( 11, 11, 11, 0.04 );
+
+	--radius: 10px;
+	--radius-sm: 6px;
+	--font: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@media ( prefers-color-scheme: dark ) {
+	:root:where( :not( [data-theme="light"] ) ) {
+		color-scheme: dark;
+
+		--plane: #0d0d0d;
+		--surface: #1a1a19;
+		--ink: #ffffff;
+		--ink-secondary: #c3c2b7;
+		--ink-muted: #898781;
+		--gridline: #2c2c2a;
+		--baseline: #383835;
+		--border: rgba( 255, 255, 255, 0.10 );
+		--series-1: #3987e5;
+		--series-wash: rgba( 57, 135, 229, 0.14 );
+		--success: #0ca30c;
+		--hover-wash: rgba( 255, 255, 255, 0.06 );
+	}
+}
+
+:root[data-theme="dark"] {
+	color-scheme: dark;
+
+	--plane: #0d0d0d;
+	--surface: #1a1a19;
+	--ink: #ffffff;
+	--ink-secondary: #c3c2b7;
+	--ink-muted: #898781;
+	--gridline: #2c2c2a;
+	--baseline: #383835;
+	--border: rgba( 255, 255, 255, 0.10 );
+	--series-1: #3987e5;
+	--series-wash: rgba( 57, 135, 229, 0.14 );
+	--success: #0ca30c;
+	--hover-wash: rgba( 255, 255, 255, 0.06 );
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: var( --plane );
+	color: var( --ink );
+	font-family: var( --font );
+	font-size: 15px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip-path: inset( 50% );
+	white-space: nowrap;
+}
+
+/* ---------- Top bar ---------- */
+
+.topbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 16px 24px;
+	border-bottom: 1px solid var( --border );
+	background: var( --surface );
+}
+
+.topbar__brand {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+}
+
+.topbar__mark {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: var( --series-1 );
+}
+
+.topbar__controls {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.icon-button {
+	display: grid;
+	place-items: center;
+	width: 34px;
+	height: 34px;
+	padding: 0;
+	border: 1px solid var( --border );
+	border-radius: var( --radius-sm );
+	background: var( --surface );
+	color: var( --ink-secondary );
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.icon-button:hover {
+	background: var( --hover-wash );
+}
+
+/* ---------- Layout ---------- */
+
+.layout {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.notice {
+	margin: 0;
+	padding: 24px;
+	border: 1px solid var( --border );
+	border-radius: var( --radius );
+	background: var( --surface );
+	color: var( --ink-secondary );
+}
+
+.notice--error {
+	border-color: #d03b3b;
+	color: var( --ink );
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* ---------- Headline ---------- */
+
+.headline {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 24px;
+	padding: 28px;
+	border: 1px solid var( --border );
+	border-radius: var( --radius );
+	background: var( --surface );
+}
+
+.headline__label {
+	margin: 0;
+	color: var( --ink-secondary );
+	font-size: 14px;
+}
+
+/*
+ * The hero figure. Proportional figures deliberately -- tabular-nums makes a number
+ * like 121 look loose at display sizes.
+ */
+.headline__value {
+	margin: 2px 0 0;
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 1.05;
+	letter-spacing: -0.03em;
+}
+
+.headline__value.is-zero {
+	color: var( --ink-muted );
+}
+
+.headline__meta {
+	margin: 10px 0 0;
+	color: var( --ink-secondary );
+	font-size: 13px;
+}
+
+.headline__aside {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 12px;
+	min-width: 190px;
+}
+
+.headline__sync {
+	margin: 0;
+	color: var( --ink-muted );
+	font-size: 12px;
+	text-align: right;
+}
+
+.stat {
+	text-align: right;
+}
+
+.stat__label {
+	margin: 0;
+	color: var( --ink-secondary );
+	font-size: 13px;
+}
+
+.stat__value {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.15;
+	letter-spacing: -0.02em;
+}
+
+/*
+ * More attendees is the good direction, so growth wears the success ink. A decline is not
+ * an error state -- it just means people came off the list -- so it stays neutral rather
+ * than borrowing a warning color it would not have earned.
+ */
+.stat__delta {
+	margin: 0;
+	color: var( --ink-muted );
+	font-size: 13px;
+}
+
+.stat__delta.is-up {
+	color: var( --success );
+}
+
+.stat__delta:empty {
+	display: none;
+}
+
+.button {
+	padding: 9px 16px;
+	border: 1px solid transparent;
+	border-radius: var( --radius-sm );
+	background: var( --series-1 );
+	color: #ffffff;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.button:hover {
+	filter: brightness( 1.07 );
+}
+
+.button:disabled {
+	opacity: 0.55;
+	cursor: default;
+	filter: none;
+}
+
+.button--ghost {
+	align-self: flex-start;
+	margin-top: 12px;
+	background: transparent;
+	border-color: var( --border );
+	color: var( --ink-secondary );
+}
+
+.button--ghost:hover {
+	background: var( --hover-wash );
+	filter: none;
+}
+
+/* ---------- Panels ---------- */
+
+.panel {
+	padding: 24px;
+	border: 1px solid var( --border );
+	border-radius: var( --radius );
+	background: var( --surface );
+}
+
+.panel__head {
+	margin-bottom: 16px;
+}
+
+.panel__title {
+	margin: 0;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+}
+
+.panel__sub {
+	margin: 2px 0 0;
+	color: var( --ink-secondary );
+	font-size: 13px;
+}
+
+/* ---------- People ---------- */
+
+.people {
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax( 280px, 1fr ) );
+	gap: 4px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.person {
+	display: flex;
+	gap: 12px;
+	padding: 10px;
+	border-radius: var( --radius-sm );
+}
+
+.person:hover {
+	background: var( --hover-wash );
+}
+
+.people--muted .person {
+	opacity: 0.7;
+}
+
+.person__avatar {
+	position: relative;
+	flex: 0 0 auto;
+	display: grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: var( --gridline );
+	color: var( --ink-secondary );
+	font-size: 13px;
+	font-weight: 600;
+	overflow: hidden;
+}
+
+/*
+ * Gravatar is requested with d=blank, so people without an avatar get a transparent
+ * image and the initials underneath show through. No broken-image state, no second request.
+ */
+.person__avatar img {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.person__body {
+	min-width: 0;
+}
+
+.person__name {
+	font-weight: 600;
+	letter-spacing: -0.01em;
+	overflow-wrap: anywhere;
+}
+
+.person__meta {
+	color: var( --ink-secondary );
+	font-size: 13px;
+	overflow-wrap: anywhere;
+}
+
+.person__meta a {
+	color: inherit;
+}
+
+.person__when {
+	margin-top: 2px;
+	color: var( --ink-muted );
+	font-size: 12px;
+}
+
+.person__badge {
+	display: inline-block;
+	margin-left: 6px;
+	padding: 0 6px;
+	border: 1px solid var( --border );
+	border-radius: 999px;
+	color: var( --ink-muted );
+	font-size: 11px;
+	font-weight: 500;
+	vertical-align: 1px;
+}
+
+.roster__divider {
+	grid-column: 1 / -1;
+	margin: 16px 0 6px;
+	padding-top: 14px;
+	border-top: 1px solid var( --gridline );
+	color: var( --ink-muted );
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+
+/* ---------- Toolbar ---------- */
+
+.toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 12px;
+}
+
+.input,
+.select {
+	padding: 9px 12px;
+	border: 1px solid var( --border );
+	border-radius: var( --radius-sm );
+	background: var( --surface );
+	color: var( --ink );
+	font-family: inherit;
+	font-size: 14px;
+}
+
+.input {
+	flex: 1 1 260px;
+}
+
+.input:focus-visible,
+.select:focus-visible,
+.button:focus-visible,
+.icon-button:focus-visible,
+.segmented__option:focus-visible {
+	outline: 2px solid var( --series-1 );
+	outline-offset: 2px;
+}
+
+.segmented {
+	display: flex;
+	border: 1px solid var( --border );
+	border-radius: var( --radius-sm );
+	overflow: hidden;
+}
+
+.segmented__option {
+	padding: 9px 14px;
+	border: 0;
+	background: transparent;
+	color: var( --ink-secondary );
+	font-family: inherit;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.segmented__option.is-selected {
+	background: var( --hover-wash );
+	color: var( --ink );
+	font-weight: 500;
+}
+
+.roster__count {
+	margin: 0 0 10px;
+	color: var( --ink-muted );
+	font-size: 13px;
+}
+
+/* ---------- Chart ---------- */
+
+.chart {
+	width: 100%;
+	overflow-x: auto;
+}
+
+.chart svg {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.chart__grid {
+	stroke: var( --gridline );
+	stroke-width: 1;
+}
+
+.chart__axis {
+	stroke: var( --baseline );
+	stroke-width: 1;
+}
+
+.chart__tick {
+	fill: var( --ink-muted );
+	font-size: 11px;
+	font-variant-numeric: tabular-nums;
+}
+
+.chart__area {
+	fill: var( --series-wash );
+}
+
+.chart__line {
+	fill: none;
+	stroke: var( --series-1 );
+	stroke-width: 2;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+
+.chart__end-dot {
+	fill: var( --series-1 );
+	stroke: var( --surface );
+	stroke-width: 2;
+}
+
+.chart__end-label {
+	fill: var( --ink );
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.chart__crosshair {
+	stroke: var( --baseline );
+	stroke-width: 1;
+}
+
+.chart__hover-dot {
+	fill: var( --series-1 );
+	stroke: var( --surface );
+	stroke-width: 2;
+}
+
+.chart__empty {
+	padding: 32px 0;
+	color: var( --ink-muted );
+	font-size: 13px;
+	text-align: center;
+}
+
+.chart-tooltip {
+	position: absolute;
+	z-index: 2;
+	padding: 8px 10px;
+	border: 1px solid var( --border );
+	border-radius: var( --radius-sm );
+	background: var( --surface );
+	box-shadow: 0 4px 14px rgba( 0, 0, 0, 0.12 );
+	color: var( --ink );
+	font-size: 12px;
+	line-height: 1.45;
+	pointer-events: none;
+	white-space: nowrap;
+}
+
+.chart-tooltip__value {
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+}
+
+.chart-wrap {
+	position: relative;
+}
+
+/* ---------- Table view ---------- */
+
+.table-view {
+	margin-top: 12px;
+	border-top: 1px solid var( --gridline );
+	padding-top: 12px;
+}
+
+.table-view summary {
+	color: var( --ink-secondary );
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.table-scroll {
+	overflow-x: auto;
+	margin-top: 12px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13px;
+	font-variant-numeric: tabular-nums;
+}
+
+th,
+td {
+	padding: 6px 12px 6px 0;
+	text-align: left;
+	border-bottom: 1px solid var( --gridline );
+	white-space: nowrap;
+}
+
+th {
+	color: var( --ink-secondary );
+	font-weight: 500;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 8px 24px 40px;
+	color: var( --ink-muted );
+	font-size: 12px;
+}
+
+.footer p {
+	margin: 0 0 4px;
+}
+
+.footer a {
+	color: inherit;
+}
+
+@media ( max-width: 620px ) {
+	.layout {
+		padding: 16px;
+	}
+
+	.headline {
+		padding: 22px;
+	}
+
+	.headline__value {
+		font-size: 48px;
+	}
+
+	.headline__aside {
+		align-items: flex-start;
+		min-width: 0;
+	}
+
+	.stat,
+	.headline__sync {
+		text-align: left;
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "wordcamp-attendee-tracker",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Tracks WordCamp attendee lists and records when each attendee was added.",
+	"scripts": {
+		"poll": "node scripts/poll.js",
+		"poll:dry": "node scripts/poll.js --dry-run",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "node --test"
+	},
+	"dependencies": {
+		"cheerio": "^1.1.2",
+		"nodemailer": "^9.0.4"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.38.0",
+		"eslint": "^9.38.0",
+		"globals": "^16.4.0"
+	}
+}

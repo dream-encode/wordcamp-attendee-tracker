@@ -1,0 +1,49 @@
+name: Deploy site to Pages
+
+# Publishes site/ to GitHub Pages. The poller commits its JSON into site/data/, so a data
+# update and a code change deploy through exactly the same path.
+#
+# One-time setup: Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
+#
+# There is no build step. The site is plain HTML, CSS and ES modules, so the directory is
+# uploaded as-is -- nothing to bundle, nothing to keep in sync with a lockfile.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

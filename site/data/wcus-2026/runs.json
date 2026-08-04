@@ -1,0 +1,12 @@
+{
+	"event": "wcus-2026",
+	"points": [
+		{
+			"at": "2026-08-04T18:40:39.884Z",
+			"total": 628,
+			"rows": 634,
+			"arrived": 628,
+			"departed": 0
+		}
+	]
+}

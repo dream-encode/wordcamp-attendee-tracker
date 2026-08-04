@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="light dark">
+	<title>WordCamp Attendee Tracker</title>
+	<meta name="description" content="Tracks WordCamp attendee lists and shows who was added since you last checked.">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='14'>&#128100;</text></svg>">
+</head>
+<body>
+	<header class="topbar">
+		<div class="topbar__brand">
+			<span class="topbar__mark" aria-hidden="true"></span>
+			<span>Attendee Tracker</span>
+		</div>
+
+		<div class="topbar__controls">
+			<label class="visually-hidden" for="event-select">Event</label>
+			<select id="event-select" class="select" hidden></select>
+
+			<button id="theme-toggle" class="icon-button" type="button" aria-label="Switch theme">
+				<span aria-hidden="true">&#9681;</span>
+			</button>
+		</div>
+	</header>
+
+	<main id="main" class="layout">
+		<p id="loading" class="notice">Loading attendee data&hellip;</p>
+
+		<div id="content" hidden>
+			<!-- The whole point of the page: how many are new, and how many there are. -->
+			<section class="headline" aria-labelledby="headline-label">
+				<div class="headline__primary">
+					<p class="headline__label" id="headline-label">New since you last checked</p>
+					<p class="headline__value" id="new-count">&mdash;</p>
+					<p class="headline__meta" id="headline-meta"></p>
+				</div>
+
+				<div class="headline__aside">
+					<div class="stat">
+						<p class="stat__label">Attendees total</p>
+						<p class="stat__value" id="total-count">&mdash;</p>
+						<p class="stat__delta" id="total-delta"></p>
+					</div>
+
+					<button id="mark-checked" class="button" type="button">Mark as checked</button>
+					<p class="headline__sync" id="sync-note"></p>
+				</div>
+			</section>
+
+			<section id="arrivals-section" class="panel" aria-labelledby="arrivals-heading" hidden>
+				<div class="panel__head">
+					<h2 class="panel__title" id="arrivals-heading">New arrivals</h2>
+					<p class="panel__sub" id="arrivals-sub"></p>
+				</div>
+				<ul class="people" id="arrivals"></ul>
+			</section>
+
+			<section id="departures-section" class="panel" aria-labelledby="departures-heading" hidden>
+				<div class="panel__head">
+					<h2 class="panel__title" id="departures-heading">Removed from the list</h2>
+					<p class="panel__sub" id="departures-sub"></p>
+				</div>
+				<ul class="people people--muted" id="departures"></ul>
+			</section>
+
+			<section class="panel" aria-labelledby="growth-heading">
+				<div class="panel__head">
+					<h2 class="panel__title" id="growth-heading">Attendee count over time</h2>
+					<p class="panel__sub" id="growth-sub"></p>
+				</div>
+				<div id="growth-chart" class="chart"></div>
+				<details class="table-view">
+					<summary>View as table</summary>
+					<div class="table-scroll">
+						<table id="growth-table">
+							<thead>
+								<tr><th scope="col">Recorded</th><th scope="col">Total</th><th scope="col">Arrived</th><th scope="col">Removed</th></tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+					</div>
+				</details>
+			</section>
+
+			<section class="panel" aria-labelledby="roster-heading">
+				<div class="panel__head">
+					<h2 class="panel__title" id="roster-heading">Full roster</h2>
+					<p class="panel__sub" id="roster-sub"></p>
+				</div>
+
+				<div class="toolbar">
+					<label class="visually-hidden" for="search">Search attendees</label>
+					<input id="search" class="input" type="search" placeholder="Search name, job title or company" autocomplete="off">
+
+					<div class="segmented" role="group" aria-label="Sort order">
+						<button type="button" class="segmented__option is-selected" data-sort="recent" aria-pressed="true">Recently added</button>
+						<button type="button" class="segmented__option" data-sort="alpha" aria-pressed="false">A&ndash;Z</button>
+					</div>
+				</div>
+
+				<p class="roster__count" id="roster-count" role="status"></p>
+				<ul class="people" id="roster"></ul>
+				<button id="show-more" class="button button--ghost" type="button" hidden>Show more</button>
+			</section>
+		</div>
+
+		<p id="error" class="notice notice--error" hidden></p>
+	</main>
+
+	<footer class="footer">
+		<p id="footer-source"></p>
+		<p class="footer__note">
+			Added dates are recorded by this tracker when it first sees a person, so they are accurate to
+			the poll interval. Anyone already listed when tracking began has no recorded date.
+		</p>
+	</footer>
+
+	<script type="module" src="app.js"></script>
+</body>
+</html>

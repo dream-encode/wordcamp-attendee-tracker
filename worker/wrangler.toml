@@ -1,0 +1,24 @@
+# Holds the per-event "last checked" timestamp for the tracker site.
+#
+# Setup:
+#   npx wrangler login
+#   npx wrangler kv namespace create TRACKER_STATE
+#     -> paste the returned id below
+#   npx wrangler deploy
+#     -> put the deployed URL into site/config.js as WORKER_URL
+#
+# Local dev:
+#   npx wrangler dev            (localhost origins are always allowed by the Worker)
+
+name = "wordcamp-attendee-tracker-state"
+main = "src/index.js"
+compatibility_date = "2026-08-04"
+
+[[kv_namespaces]]
+binding = "TRACKER_STATE"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[vars]
+# Comma-separated. Set this to your GitHub Pages origin once Pages is live.
+# localhost and 127.0.0.1 are permitted automatically for local development.
+ALLOWED_ORIGINS = "https://REPLACE_WITH_GITHUB_USERNAME.github.io"
