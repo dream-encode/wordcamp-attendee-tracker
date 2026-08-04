@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-04T19:11:47.891Z",
-	"total": 628,
-	"rows": 634,
+	"updated_at": "2026-08-04T23:27:49.295Z",
+	"total": 633,
+	"rows": 639,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -151,6 +151,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "042628ce1065e0357381fa63d0c66ccaa6447db6f8ea8a3318ee230a2f36bde3",
+			"first": "Si",
+			"last": "Robins",
+			"job_title": "Director of Business Development",
+			"company": "Four Kitchens",
+			"company_url": "http://Four%20Kitchens",
+			"gravatar_hash": "11c8a715b0dc579660d270b32d1bd361a5cc45f445c02d3000d4d8e6bf156038",
+			"added_at": "2026-08-04T23:27:49.295Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "0440cbd3b6c84f298c6ef7cf222edab1e8c3bc76c367c91a4690b59bb62726ea",
@@ -356,6 +368,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "08de45d86fdf1974f201f9802e3d55eda60fffb8e93f07aa0de27c068cf55110",
+			"first": "Marc",
+			"last": "McKeown",
+			"job_title": "Developer",
+			"company": "White Point Digital",
+			"company_url": "http://White%20Point%20Digital",
+			"gravatar_hash": "1fab14f4a2806c70f2060e0b9e464ce74181569420dc440cb1d5dcc46b168321",
+			"added_at": "2026-08-04T23:27:49.295Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "08e1b1c43b33bf57da66a6b16715f1501ca175fa8f8f3d0b1c64299fd9fa4a29",
@@ -1124,6 +1148,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "2fd3226b34f92edc8a2a3468aeee12a26a0f08a5533ac15c531bbc7775c1d882",
+			"first": "Francis",
+			"last": "Agulto",
+			"job_title": "Developer Advocate",
+			"company": "wpengine.com",
+			"company_url": "https://wpengine.com/",
+			"gravatar_hash": "0c8a05c76944fc987d57296c96dc368055844527088c0aa44297edbfa8b82546",
+			"added_at": "2026-08-04T23:27:49.295Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "2ff0e98d5dbd9b54a35f24d3e89e3943bdfb43cdb95c2b08431381abb6776adf",
@@ -3081,6 +3117,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "69a8904bcfdee1eb93243b54e97344146aac90d5516703a6fe34d39c21df1c9a",
+			"first": "Chad",
+			"last": "Mueller",
+			"job_title": "Director of Web Technology",
+			"company": "everservice.com",
+			"company_url": "http://everservice.com",
+			"gravatar_hash": "b9bf6009abe3693eed824451d40eb497b1316f7834121b9ac652b1f1823f2552",
+			"added_at": "2026-08-04T23:27:49.295Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "69c690553db520843e651510e69c8baf59f28df05481f30e9166e55daa7b25bf",
@@ -6708,6 +6756,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "e3ce21d9244e2dcf442791f62d2cae438a6604fb260b6ac2ef199549a39701a1",
+			"first": "Alex",
+			"last": "Moon",
+			"job_title": "Developer Advocate",
+			"company": "wpengine.com",
+			"company_url": "https://wpengine.com",
+			"gravatar_hash": "e751c6c4033ab32c97e38f1c218b0f11070378a7c7b797539c497ca289b4f205",
+			"added_at": "2026-08-04T23:27:49.295Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "e416ef18c6c1807840dd782270e86ec82e7133bce171c795a40a44ac076328e3",
