@@ -16,7 +16,7 @@ compatibility_date = "2026-08-04"
 
 [[kv_namespaces]]
 binding = "TRACKER_STATE"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "edc873792de74d818478b8e7f82576bc"
 
 [vars]
 # Comma-separated. Set this to your GitHub Pages origin once Pages is live.
