@@ -24,6 +24,15 @@ on:
       - "site/**"
       - ".github/workflows/deploy-site.yml"
   workflow_dispatch:
+  # Called by poll-attendees.yml. Its data commits are made with GITHUB_TOKEN, and GitHub
+  # will not start a workflow run from those, so the push trigger above never fires for
+  # them -- the poller has to invoke this directly or the site never picks up new data.
+  workflow_call:
+    secrets:
+      CLOUDFLARE_API_TOKEN:
+        required: true
+      CLOUDFLARE_ACCOUNT_ID:
+        required: true
 
 concurrency:
   group: deploy-site
