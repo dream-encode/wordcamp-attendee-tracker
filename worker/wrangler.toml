@@ -19,6 +19,11 @@ binding = "TRACKER_STATE"
 id = "edc873792de74d818478b8e7f82576bc"
 
 [vars]
-# Comma-separated. Set this to your GitHub Pages origin once Pages is live.
-# localhost and 127.0.0.1 are permitted automatically for local development.
-ALLOWED_ORIGINS = "https://REPLACE_WITH_GITHUB_USERNAME.github.io"
+# Comma-separated list of origins allowed to read and write the marker. Must match the
+# deployed site exactly -- a mismatch is silent: the browser drops the response and the
+# site quietly falls back to per-browser localStorage.
+#
+# Preview deployments get their own <hash>.wc-attendee-tracker.pages.dev origin and are
+# deliberately NOT listed, so a preview build cannot clobber the production marker.
+# localhost and 127.0.0.1 are always permitted, for local development.
+ALLOWED_ORIGINS = "https://wc-attendee-tracker.pages.dev"

@@ -1,0 +1,56 @@
+name: Deploy site to Cloudflare Pages
+
+# Publishes site/ to the wc-attendee-tracker Pages project. The poller commits its JSON
+# into site/data/, so a data update and a code change deploy through exactly the same path.
+#
+# Why a workflow rather than Cloudflare's built-in Git integration: the project was created
+# with `wrangler pages project create`, which makes it a Direct Upload project, and
+# Cloudflare does not allow converting one of those to a Git-connected project. Deploying
+# from here keeps that decision reversible -- and it works with a private repo without
+# granting Cloudflare access to it.
+#
+# Do NOT also connect this repo in the Cloudflare dashboard. It would either be rejected
+# (Direct Upload projects cannot take a Git connection) or, on a recreated project, cause
+# every push to deploy twice.
+#
+# Repository secrets:
+#   CLOUDFLARE_API_TOKEN   token with the "Cloudflare Pages: Edit" permission
+#   CLOUDFLARE_ACCOUNT_ID  27e3b575ce7737c20a6ec6eeb58caf29
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy-site.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+
+      - name: Deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          npx --yes wrangler@4 pages deploy site \
+            --project-name wc-attendee-tracker \
+            --branch main

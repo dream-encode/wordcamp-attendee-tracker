@@ -13,5 +13,5 @@ export const CONFIG = {
 	 * Leave empty and the site falls back to localStorage: everything still works, but the
 	 * "last checked" marker is per-browser instead of shared across your devices.
 	 */
-	workerUrl: ""
+	workerUrl: "https://wordcamp-attendee-tracker-state.david-27e.workers.dev"
 }

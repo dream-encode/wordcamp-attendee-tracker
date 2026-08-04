@@ -28,32 +28,55 @@ assumption about the page structure is isolated in
 [fetch-attendees.js](scripts/lib/fetch-attendees.js), so that is the only file that needs
 to change if WordCamp alters the markup.
 
-## Setup
+## Where it lives
 
-### 1. Repository
+| | |
+|---|---|
+| **Site** | https://wc-attendee-tracker.pages.dev |
+| **Marker API** | https://wordcamp-attendee-tracker-state.david-27e.workers.dev |
 
-Push this to GitHub, then under **Settings → Pages → Build and deployment** set
-**Source** to **GitHub Actions**. The poller needs `contents: write`, which
-[poll-attendees.yml](.github/workflows/poll-attendees.yml) already requests.
+Both are deployed and working. The site is a Cloudflare Pages project
+(`wc-attendee-tracker`); the Worker holds the shared "last checked" timestamp in KV.
 
-### 2. Cloudflare Worker (shared "last checked" marker)
+## Deploying
+
+### Manually, from this directory
 
 ```bash
-cd worker
-npx wrangler login
-npx wrangler kv namespace create TRACKER_STATE   # paste the id into wrangler.toml
-npx wrangler deploy
+# Site
+npx wrangler pages deploy site --project-name wc-attendee-tracker --branch main
+
+# Worker (only when worker/src or wrangler.toml changes)
+cd worker && npx wrangler deploy
 ```
 
-Then set two things:
+### Automatically, on push
 
-- `ALLOWED_ORIGINS` in [wrangler.toml](worker/wrangler.toml) → your Pages origin.
-- `workerUrl` in [site/config.js](site/config.js) → the deployed Worker URL.
+[deploy-site.yml](.github/workflows/deploy-site.yml) redeploys the site whenever `site/`
+changes on `main` — which includes the poller's own data commits. It needs two repository
+secrets:
 
-Skipping this step is fine. The site falls back to `localStorage`, so everything still
-works — the marker is just per-browser instead of shared, and the page says so.
+| Secret | Value |
+|---|---|
+| `CLOUDFLARE_API_TOKEN` | A token with the **Cloudflare Pages: Edit** permission |
+| `CLOUDFLARE_ACCOUNT_ID` | `27e3b575ce7737c20a6ec6eeb58caf29` |
 
-### 3. Email notifications
+**Do not also connect this repo in the Cloudflare dashboard.** The project was created with
+`wrangler pages project create`, which makes it a *Direct Upload* project, and Cloudflare
+does not allow converting one to a Git-connected project. Deploying from Actions sidesteps
+that and works with a private repo without giving Cloudflare access to it.
+
+### If the site origin ever changes
+
+`ALLOWED_ORIGINS` in [wrangler.toml](worker/wrangler.toml) must match the site origin
+exactly, and `workerUrl` in [site/config.js](site/config.js) must point at the Worker. A
+mismatch fails silently in a way that is easy to miss: the browser drops the response, the
+site falls back to per-browser `localStorage`, and the only symptom is the note under the
+button reading "Saved in this browser only" instead of "Shared across your devices".
+
+## Setup
+
+### Email notifications
 
 Add these repository secrets. Leave them out and the poll still runs, it just does not
 send mail.
@@ -67,10 +90,25 @@ send mail.
 | `SMTP_FROM` | `WordCamp Tracker <tracker@example.com>` |
 | `SMTP_TO` | `you@example.com` |
 
-Optionally set the `SITE_URL` repository **variable** to add a link to the tracker in the
-email body.
+Optionally set the `SITE_URL` repository **variable** to
+`https://wc-attendee-tracker.pages.dev` to add a link to the tracker in the email body.
 
-### 4. First run
+### Making it self-updating
+
+The site is live but static until the poller runs on a schedule, which needs the repo on
+GitHub:
+
+```bash
+git init -b main
+git add -A
+git commit -m "FEA: Tracker - initial WordCamp attendee tracker"
+gh repo create WordCampAttendeeTracker --private --source=. --push
+```
+
+Add the secrets above, and [poll-attendees.yml](.github/workflows/poll-attendees.yml) takes
+over: every 30 minutes it polls, commits any change, and that commit triggers a redeploy.
+
+### First run (already done)
 
 ```bash
 npm ci
