@@ -43,6 +43,7 @@ jobs:
 
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+      sha: ${{ steps.commit.outputs.sha }}
 
     steps:
       - name: Checkout
@@ -99,12 +100,19 @@ jobs:
           git push
 
           echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
   # Publishing has to be chained rather than left to deploy-site.yml's push trigger: the
   # commit above is made with GITHUB_TOKEN, and GitHub does not start workflow runs from
   # those pushes. Without this the data would update and the site would never redeploy.
+  #
+  # The commit SHA is passed explicitly. Without it the deploy checks out github.sha, which
+  # is the commit that STARTED this run -- i.e. the tree from before the poller committed --
+  # and republishes stale data while reporting success.
   deploy:
     needs: poll
     if: needs.poll.outputs.changed == 'true'
     uses: ./.github/workflows/deploy-site.yml
+    with:
+      ref: ${{ needs.poll.outputs.sha }}
     secrets: inherit

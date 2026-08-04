@@ -12,5 +12,7 @@
 * ENH: Poll - roster-drop guard aborts a run that returns under 80% of the previous roster, protecting recorded `added_at` values from a truncated response.
 * ENH: Poll - write data files only when the meaningful content changes, so an unchanged poll produces no commit.
 * BUG: Workflows - chain the Pages deploy onto the poll job. GitHub does not start workflow runs from pushes made with `GITHUB_TOKEN`, so the poller committed new attendee data that the site never published.
+* BUG: Workflows - deploy the commit the poller just pushed rather than `github.sha`, which in a called workflow is the commit that started the run. The deploy was checking out the pre-poll tree and republishing stale data while reporting success.
+* ENH: Workflows - log the commit and attendee totals being published, so a stale deploy is visible in the run log instead of silent.
 * TSK: Tests - cover parsing, deduplication, arrival and departure stamping, and the drop guard.
 * TWK: Lint - ignore the `.wrangler` build output, which otherwise reports hundreds of style errors in generated code after a Worker dev session.

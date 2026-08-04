@@ -28,6 +28,16 @@ on:
   # will not start a workflow run from those, so the push trigger above never fires for
   # them -- the poller has to invoke this directly or the site never picks up new data.
   workflow_call:
+    inputs:
+      ref:
+        description: >-
+          Commit to deploy. The caller MUST pass this when it has just pushed a commit:
+          github.sha in a called workflow is the SHA that started the run, not whatever the
+          previous job pushed, so checking out the default would republish the pre-commit
+          tree and silently undo the update.
+        type: string
+        required: false
+        default: ""
     secrets:
       CLOUDFLARE_API_TOKEN:
         required: true
@@ -48,6 +58,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          # Empty for push/workflow_dispatch, where github.sha is already the right commit.
+          ref: ${{ inputs.ref || github.sha }}
+
+      # Makes a stale deploy visible in the log. The previous failure mode was silent:
+      # both jobs reported success while republishing the pre-poll tree.
+      - name: Show what is being deployed
+        run: |
+          set -euo pipefail
+          echo "Commit: $(git rev-parse --short HEAD)"
+          for file in site/data/*/attendees.json; do
+            jq -r --arg f "$file" '"\($f): total=\(.total) rows=\(.rows) updated_at=\(.updated_at)"' "$file"
+          done
 
       - name: Set up Node
         uses: actions/setup-node@v5
