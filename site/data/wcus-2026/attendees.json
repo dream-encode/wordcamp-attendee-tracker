@@ -4,7 +4,7 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-05T03:30:40.040Z",
+	"updated_at": "2026-08-05T15:30:47.343Z",
 	"total": 639,
 	"rows": 646,
 	"attendees": [
@@ -5840,7 +5840,7 @@
 			"company_url": "http://WordPress.org",
 			"gravatar_hash": "1ac654031f9804f470aabc84f2a4f8ac2d372eb1b014e1baba41dd6f0dcbc786",
 			"added_at": "2026-08-04T18:40:39.884Z",
-			"departed_at": null,
+			"departed_at": "2026-08-05T15:30:47.343Z",
 			"baseline": true
 		},
 		{
@@ -7285,6 +7285,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "f35d2a6a22f9ab965d37812af2c744218d064af5f606f19a68217de6c53b623e",
+			"first": "Georgia",
+			"last": "Cardwell",
+			"job_title": "Customer Success Manager",
+			"company": "hosting.com",
+			"company_url": "http://hosting.com",
+			"gravatar_hash": "9ece7f03440df504e0cc7a0aa0149723cd00bb802091de7c6ea6f730fb36ffb6",
+			"added_at": "2026-08-05T15:30:47.343Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "f37a821af24edb1eaf6575175acd434e0bdb261d0daa6411506a7507d322267e",
