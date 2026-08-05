@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-05T18:42:56.270Z",
-	"total": 638,
-	"rows": 645,
+	"updated_at": "2026-08-05T19:30:40.623Z",
+	"total": 639,
+	"rows": 646,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -788,6 +788,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "1bf479396d28c05e6fb90f68bf570c6a40cc161124ebcf4f10bf001e253cb43c",
+			"first": "Amar",
+			"last": "Krishna",
+			"job_title": "Chief of Staff",
+			"company": "convesio.com",
+			"company_url": "http://www.convesio.com",
+			"gravatar_hash": "c1e2c1d994eb80fa195e50a523e4798954d8f18654b9252e652d8551b3ebac49",
+			"added_at": "2026-08-05T19:30:40.623Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "1c12fd30dd79946cdc6d5c1d3f83b1702964dda8a24f64eb6ccd63200b0889a3",
@@ -2507,6 +2519,18 @@
 			"baseline": true
 		},
 		{
+			"key": "55be87a39174a5a172496251727d836ea81ae3e480845fd20fc58c5acd41bce5",
+			"first": "Qurratulain",
+			"last": "Albulushi",
+			"job_title": "Consultant",
+			"company": "pixeldesign.io",
+			"company_url": "http://pixeldesign.io",
+			"gravatar_hash": "92bd595aa5c392e31d570cbebc05e93b7373218feec80c8bef4d2ea7b83a9de0",
+			"added_at": "2026-08-05T19:30:40.623Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "566f1e3706f41ac8e972468698950beea260032af997ce82efc4a69ef0f14f8d",
 			"first": "Anthony",
 			"last": "Richter",
@@ -3763,7 +3787,7 @@
 			"company_url": "https://www.drcandacehughes.com/",
 			"gravatar_hash": "a0db8890613050c534b28cd2ee1d7590d814b98301486f26d17b18ab7cec91b8",
 			"added_at": "2026-08-04T18:40:39.884Z",
-			"departed_at": null,
+			"departed_at": "2026-08-05T19:30:40.623Z",
 			"baseline": true
 		},
 		{
