@@ -1,13 +1,18 @@
 name: Poll attendee lists
 
 # Fetches each active attendee list, stamps arrivals and departures into site/data/, and
-# commits only when something actually changed. That commit is what deploys the site --
-# deploy-pages.yml triggers on pushes to main that touch site/.
+# commits only when something actually changed. When it does commit, it calls deploy-site.yml
+# directly -- see the deploy job at the bottom for why the push trigger cannot be relied on.
 #
-# `added_at` precision is bounded by this schedule: at */30 a new attendee is recorded
-# within 30 minutes of appearing. Tighten the cron to tighten the stamp. GitHub's scheduler
-# is best-effort and runs late under load, so treat the interval as an upper bound rather
-# than a guarantee.
+# `added_at` precision is bounded by this schedule PLUS GitHub's scheduling lag, and the lag
+# is the larger term. Scheduled workflows are best-effort: they queue behind on-demand runs
+# and get dropped under load. Measured on this repo, one run landed 28 minutes late and the
+# two slots after it were skipped entirely -- so the honest resolution is about an hour.
+#
+# Shortening the cron does not fix that; GitHub drops the extra slots too. If the stamp ever
+# needs to be tight, trigger this workflow from a scheduler that keeps time -- a Cloudflare
+# Worker Cron Trigger calling the workflow-dispatch API -- since dispatched runs start
+# promptly. That needs a GitHub PAT as a Worker secret, hence not the default.
 #
 # Repository secrets (all optional -- without them the poll still runs, it just does not
 # email): SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM, SMTP_TO
@@ -18,7 +23,11 @@ name: Poll attendee lists
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Deliberately NOT "*/30", which lands on :00 -- the busiest minute on GitHub's
+    # scheduler, where runs are most often delayed or dropped outright. Scheduled
+    # workflows are best-effort and get queued behind on-demand runs, so an odd offset
+    # measurably improves the odds of firing near the requested time.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       force:
