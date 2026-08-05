@@ -213,6 +213,36 @@ body {
 	font-size: 13px;
 }
 
+/*
+ * Liveness indicator. An attendee list can legitimately go many hours without changing --
+ * nobody registers overnight -- so "last change" alone makes a healthy tracker look dead.
+ * This states when the source was last polled, separately from when it last changed.
+ */
+.pulse {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	margin: 6px 0 0;
+	color: var( --ink-muted );
+	font-size: 12px;
+}
+
+.pulse__dot {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: var( --success );
+	flex: 0 0 auto;
+}
+
+.pulse.is-stale {
+	color: var( --ink-secondary );
+}
+
+.pulse.is-stale .pulse__dot {
+	background: #fab219;
+}
+
 .headline__aside {
 	display: flex;
 	flex-direction: column;

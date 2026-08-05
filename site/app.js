@@ -304,20 +304,78 @@ const renderHeadline = () => {
 		delta.classList.remove( "is-up" )
 	}
 
+	/*
+	 * "Last change" rather than "data updated": the roster genuinely sits unchanged
+	 * overnight, and phrasing it as an update made a working tracker read as stale. When
+	 * the source was last POLLED is a separate fact, shown by the pulse below.
+	 */
 	const meta = []
 
 	if ( state.lastChecked ) {
-		meta.push( `Last checked ${ shortTime( state.lastChecked ) }` )
+		meta.push( `You marked this checked ${ shortTime( state.lastChecked ) }` )
 	} else {
 		meta.push( "You have not marked this list as checked yet" )
 	}
 
-	meta.push( `data updated ${ relativeTime( state.data.updated_at ) }` )
+	meta.push( `last change ${ relativeTime( state.data.updated_at ) }` )
 	el( "headline-meta" ).textContent = meta.join( " · " )
 
 	el( "sync-note" ).textContent = "shared" === state.markerMode
 		? "Shared across your devices"
 		: "Saved in this browser only"
+}
+
+/**
+ * Shows when the poller last completed successfully.
+ *
+ * Without this the page cannot tell "healthy but nothing has changed" apart from "the
+ * pipeline broke six hours ago" -- both look identical when the only timestamp on screen
+ * is when the data last changed. An attendee list routinely goes ten hours unchanged
+ * overnight, so that ambiguity is the normal case, not an edge case.
+ *
+ * Reads the public GitHub Actions API with no token. Any failure (private repo, rate
+ * limit, network) leaves the indicator hidden rather than showing something wrong.
+ *
+ * @since  [NEXT_VERSION]
+ *
+ * @return {Promise<void>}
+ */
+const renderPollStatus = async () => {
+	if ( ! CONFIG.githubRepo ) {
+		return
+	}
+
+	const endpoint = `https://api.github.com/repos/${ CONFIG.githubRepo }/actions/workflows/${ CONFIG.pollWorkflow }/runs?per_page=1&status=success`
+
+	let lastRun = null
+
+	try {
+		const response = await fetch( endpoint, { headers: { accept: "application/vnd.github+json" } } )
+
+		if ( ! response.ok ) {
+			return
+		}
+
+		lastRun = ( await response.json() ).workflow_runs?.[ 0 ]?.updated_at ?? null
+	} catch {
+		return
+	}
+
+	if ( ! lastRun ) {
+		return
+	}
+
+	const ageMinutes = ( Date.now() - new Date( lastRun ).getTime() ) / 60_000
+	const isStale = ageMinutes > CONFIG.staleAfterMinutes
+	const node = el( "poll-status" )
+
+	node.hidden = false
+	node.classList.toggle( "is-stale", isStale )
+	node.title = `Last successful poll: ${ exactTime( lastRun ) }`
+
+	el( "poll-status-text" ).textContent = isStale
+		? `Source last polled ${ relativeTime( lastRun ) } — the poller may have stalled`
+		: `Source checked ${ relativeTime( lastRun ) }`
 }
 
 const renderArrivals = () => {
@@ -499,6 +557,9 @@ const loadEvent = async ( event ) => {
 	state.visible = ROSTER_PAGE_SIZE
 
 	renderAll()
+
+	// Not awaited: the page is complete without it, and GitHub should never delay render.
+	renderPollStatus()
 }
 
 const setupEventSwitcher = ( events ) => {

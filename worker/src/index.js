@@ -109,7 +109,71 @@ const isValidTimestamp = ( value ) => {
 	return parsed <= Date.now() + 86_400_000
 }
 
+/**
+ * Triggers the GitHub poll workflow.
+ *
+ * This Worker owns the poll schedule because GitHub's does not keep time. Scheduled
+ * workflows are best-effort and throttled on free/public repos -- measured on this repo, a
+ * "7,37" cron dropped three consecutive slots and went 93 minutes without firing, which
+ * makes `added_at` far less precise than the cron implies. Cloudflare cron triggers fire on
+ * time, and a *dispatched* GitHub run starts promptly, so routing the schedule through here
+ * sidesteps the unreliable part while leaving the workflow itself untouched.
+ *
+ * Holding this in the same Worker as the marker API is a deliberate trade: the two
+ * responsibilities are unrelated, but a second Worker would mean a second deploy and a
+ * second config for one scheduled fetch.
+ *
+ * @since  [NEXT_VERSION]
+ *
+ * @param  {object} env Worker environment.
+ * @return {Promise<void>}
+ */
+const dispatchPoll = async ( env ) => {
+	if ( ! env.GITHUB_DISPATCH_TOKEN ) {
+		throw new Error( "Cron fired but GITHUB_DISPATCH_TOKEN is not set. Run: npx wrangler secret put GITHUB_DISPATCH_TOKEN" )
+	}
+
+	const repo = env.GITHUB_REPO
+	const workflow = env.GITHUB_WORKFLOW
+	const ref = env.GITHUB_REF || "main"
+
+	const response = await fetch( `https://api.github.com/repos/${ repo }/actions/workflows/${ workflow }/dispatches`, {
+		method: "POST",
+		headers: {
+			authorization: `Bearer ${ env.GITHUB_DISPATCH_TOKEN }`,
+			accept: "application/vnd.github+json",
+			"x-github-api-version": "2022-11-28",
+			"content-type": "application/json",
+			// GitHub rejects API requests without a User-Agent.
+			"user-agent": "wordcamp-attendee-tracker-cron"
+		},
+		body: JSON.stringify( { ref } )
+	} )
+
+	// A successful dispatch is 204 No Content.
+	if ( 204 !== response.status ) {
+		throw new Error( `Workflow dispatch failed: HTTP ${ response.status } -- ${ await response.text() }` )
+	}
+
+	console.log( `Dispatched ${ workflow } on ${ ref } of ${ repo }.` )
+}
+
 export default {
+	/**
+	 * Cron entrypoint. Errors are surfaced so a failing dispatch shows in `wrangler tail`
+	 * and the Workers dashboard rather than silently doing nothing every 30 minutes.
+	 *
+	 * @since  [NEXT_VERSION]
+	 *
+	 * @param  {object} event      Scheduled event.
+	 * @param  {object} env        Worker environment.
+	 * @param  {object} context    Execution context.
+	 * @return {Promise<void>}
+	 */
+	async scheduled( event, env, context ) {
+		context.waitUntil( dispatchPoll( env ) )
+	},
+
 	async fetch( request, env ) {
 		const cors = corsHeaders( request, env )
 		const url = new URL( request.url )

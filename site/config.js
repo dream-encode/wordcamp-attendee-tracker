@@ -13,5 +13,17 @@ export const CONFIG = {
 	 * Leave empty and the site falls back to localStorage: everything still works, but the
 	 * "last checked" marker is per-browser instead of shared across your devices.
 	 */
-	workerUrl: "https://wordcamp-attendee-tracker-state.david-27e.workers.dev"
+	workerUrl: "https://wordcamp-attendee-tracker-state.david-27e.workers.dev",
+
+	/*
+	 * Used only to show when the poller last ran, so a quiet tracker is visibly alive
+	 * rather than looking stale. Read from the public GitHub API with no token, which is
+	 * why it needs no setup -- and why it degrades silently if the repo goes private or
+	 * the unauthenticated rate limit (60/hour per IP) is hit. Set repo to "" to disable.
+	 */
+	githubRepo: "dream-encode/wordcamp-attendee-tracker",
+	pollWorkflow: "poll-attendees.yml",
+
+	/* Flag the poller as stalled if the last successful run is older than this. */
+	staleAfterMinutes: 90
 }

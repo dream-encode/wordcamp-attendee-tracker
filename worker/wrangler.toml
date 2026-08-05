@@ -14,6 +14,18 @@ name = "wordcamp-attendee-tracker-state"
 main = "src/index.js"
 compatibility_date = "2026-08-04"
 
+# Drives the poll schedule, because GitHub's own cron does not.
+#
+# Measured on this repo: a "7,37" schedule dropped three consecutive slots and went 93
+# minutes without firing. Scheduled workflows are best-effort and heavily throttled on
+# free/public repos. Cloudflare cron triggers actually keep time, so this Worker fires and
+# dispatches the GitHub workflow, whose dispatched runs then start promptly.
+#
+# The GitHub cron is left in place as a backstop. Double firing is harmless: the workflow
+# has a concurrency group so runs queue, and a poll that finds no change writes nothing.
+[triggers]
+crons = [ "*/30 * * * *" ]
+
 [[kv_namespaces]]
 binding = "TRACKER_STATE"
 id = "edc873792de74d818478b8e7f82576bc"
@@ -27,3 +39,12 @@ id = "edc873792de74d818478b8e7f82576bc"
 # deliberately NOT listed, so a preview build cannot clobber the production marker.
 # localhost and 127.0.0.1 are always permitted, for local development.
 ALLOWED_ORIGINS = "https://wc-attendee-tracker.pages.dev"
+
+# Which workflow the cron trigger dispatches.
+GITHUB_REPO = "dream-encode/wordcamp-attendee-tracker"
+GITHUB_WORKFLOW = "poll-attendees.yml"
+GITHUB_REF = "main"
+
+# Secret, set out of band (never commit it):
+#   npx wrangler secret put GITHUB_DISPATCH_TOKEN
+# Needs a fine-grained PAT scoped to this one repo with "Actions: Read and write".

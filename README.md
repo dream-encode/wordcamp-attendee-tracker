@@ -76,6 +76,25 @@ button reading "Saved in this browser only" instead of "Shared across your devic
 
 ## Setup
 
+### The poll schedule (required — the poller will not run reliably without it)
+
+The Worker's cron trigger drives the polling, so it needs a token that can dispatch the
+workflow:
+
+1. Create a **fine-grained** PAT at
+   <https://github.com/settings/personal-access-tokens/new> — scoped to *only*
+   `wordcamp-attendee-tracker`, with **Actions: Read and write**. Nothing else.
+2. Store it on the Worker and redeploy:
+
+```bash
+cd worker
+npx wrangler secret put GITHUB_DISPATCH_TOKEN   # paste the token
+npx wrangler deploy                             # registers the cron trigger
+```
+
+Confirm it is firing with `npx wrangler tail` — each trigger logs
+`Dispatched poll-attendees.yml on main`.
+
 ### Email notifications
 
 Add these repository secrets. Leave them out and the poll still runs, it just does not
@@ -161,16 +180,16 @@ npx serve site
 **`added_at` is when the tracker first saw someone**, not when they registered. No
 registration date is published anywhere, so this is the closest thing that can exist.
 
-**Its precision is the poll interval plus GitHub's scheduling lag, and the lag dominates.**
-Scheduled workflows are best-effort: they queue behind on-demand runs and are dropped under
-load. Observed here, a `7,37` cron produced one run 28 minutes late and skipped the two
-slots after it. Treat the stamp as accurate to roughly the hour, not to the half hour.
+**Its precision is bounded by the poll schedule, which is why the schedule does not live in
+GitHub.** GitHub's scheduled workflows are best-effort: they queue behind on-demand runs and
+get dropped under load. Measured on this repo, a `7,37` cron dropped three consecutive slots
+and went 93 minutes without firing — and moving off the top of the hour changed nothing.
 
-If you ever need it tighter, the fix is not a shorter cron — GitHub will drop those slots
-too. It is to trigger the run from a scheduler that actually keeps time: a Cloudflare Worker
-Cron Trigger calling `POST /repos/{owner}/{repo}/actions/workflows/{id}/dispatches`.
-Dispatched runs start promptly. That costs a GitHub PAT stored as a Worker secret, which is
-why it is not the default.
+So the Worker owns the schedule. Its cron trigger fires every 30 minutes and calls
+`POST /repos/{owner}/{repo}/actions/workflows/{id}/dispatches`; *dispatched* GitHub runs
+start promptly, unlike scheduled ones. The GitHub cron is kept as a backstop — double firing
+is harmless, because the workflow has a concurrency group and a poll that finds no change
+writes nothing.
 
 **The roster-drop guard will fail a run rather than trust a bad response.** If a poll
 returns under 80% of the previous roster, it aborts without writing. A truncated or
