@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-05T02:00:51.226Z",
-	"total": 635,
-	"rows": 642,
+	"updated_at": "2026-08-05T03:30:40.040Z",
+	"total": 639,
+	"rows": 646,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -2363,6 +2363,18 @@
 			"baseline": true
 		},
 		{
+			"key": "51cdfc991e30c2527a5c1c31b2200d441d98da7fe946605ebd3dee0dc0d4ace5",
+			"first": "Bobby",
+			"last": "Raines",
+			"job_title": "Owner",
+			"company": "quallajava.com",
+			"company_url": "http://quallajava.com",
+			"gravatar_hash": "4bc327d1d50889b801781756a569ccb6b58daa6964596b165a36aeefcc76269c",
+			"added_at": "2026-08-05T03:30:40.040Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "523418cba229a0a917eceb495388024ba78924547ea367485ca3ad1959e9ec08",
 			"first": "Filipa",
 			"last": "Correia",
@@ -2409,6 +2421,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "52fcf9188a65c53846ea675e6c0242a2f03445ef08b7e64b913b20040e6ed5f6",
+			"first": "Lydia",
+			"last": "Raines",
+			"job_title": "Business Owner",
+			"company": "quallajava.com",
+			"company_url": "http://quallajava.com",
+			"gravatar_hash": "76b8290de88a08421f5a552c38e0b3e217cf704d10af67bcbf57fffdd1ce23e8",
+			"added_at": "2026-08-05T03:30:40.040Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "530a2d9987eee380b9e898bbf2b41da48791af35d88577d73aaa66e232bd37b1",
@@ -3969,6 +3993,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "848afb1debf4972336e4a61de5dcfd315ecfdfe69b3db731981bca652ab3d488",
+			"first": "Arpit G",
+			"last": "Shah",
+			"job_title": "Founder & CEO",
+			"company": "creativewerkdesigns.com",
+			"company_url": "https://www.creativewerkdesigns.com",
+			"gravatar_hash": "145c2aa1eb34c8159a28146fd48d2372887e83911a7887aac4def2b6e64acd12",
+			"added_at": "2026-08-05T03:30:40.040Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "84eb1b948095a1e4b16a9d91521502f3a9c3968a182a79f7138a44c9d9fa9fcd",
@@ -6900,6 +6936,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "e6256f8657a3c924dc677c25863939797ddf500bdd953c658353ba1f3ebe22e2",
+			"first": "Chaske",
+			"last": "Raines",
+			"job_title": "Content Creator",
+			"company": "quallajava.com",
+			"company_url": "http://quallajava.com",
+			"gravatar_hash": "b0ea454e8835cf7a1672ffa18e0adf58eb0585296b9e4958aa63a15ecbc5d8fc",
+			"added_at": "2026-08-05T03:30:40.040Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "e64936dfddb59056f83f249f1cc8fcc03e3cf7977b652103235fb2ae344b9d70",
