@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-05T20:00:42.689Z",
-	"total": 641,
-	"rows": 648,
+	"updated_at": "2026-08-05T21:00:39.381Z",
+	"total": 643,
+	"rows": 651,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -31,6 +31,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "0112610b6dcb056d2598a00b4fde3296e7e324f6e9b336d7bf34afb995d53993",
+			"first": "Robert",
+			"last": "Ralian",
+			"job_title": "Head of Analytics",
+			"company": "Automattic",
+			"company_url": "http://Automattic",
+			"gravatar_hash": "9d0173a6a1bc3c20bdb3ec49f207c8a19821d20418bafa11a0f0ed2b7a34d1f4",
+			"added_at": "2026-08-05T21:00:39.381Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "019a228fb16b1371c27ec2c81215117198466e8446490a6495d2d4b15da3d233",
@@ -379,7 +391,8 @@
 			"gravatar_hash": "1fab14f4a2806c70f2060e0b9e464ce74181569420dc440cb1d5dcc46b168321",
 			"added_at": "2026-08-04T23:27:49.295Z",
 			"departed_at": null,
-			"baseline": false
+			"baseline": false,
+			"ticket_rows": 2
 		},
 		{
 			"key": "08e1b1c43b33bf57da66a6b16715f1501ca175fa8f8f3d0b1c64299fd9fa4a29",
@@ -2493,6 +2506,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "53b04c51d9176c8c04aeba62108cdc77f2c24b2a64e1a498656e92bfb3f85ea2",
+			"first": "Olisaeloka",
+			"last": "Osita",
+			"job_title": "Artist",
+			"company": "vintageolisa.com",
+			"company_url": "https://vintageolisa.com",
+			"gravatar_hash": "1e53c1aa10e25f3b5958d4bf457f64ee306e985913d1cbc9c9b271c965472d27",
+			"added_at": "2026-08-05T21:00:39.381Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "54e4a5d43b9dbdfcbe8260b336f077bffe20c952362cf6ef15e1ac5f7c75a5bb",
