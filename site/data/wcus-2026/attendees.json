@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-05T19:30:40.623Z",
-	"total": 639,
-	"rows": 646,
+	"updated_at": "2026-08-05T20:00:42.689Z",
+	"total": 641,
+	"rows": 648,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -980,6 +980,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "2490ca940afeb20f005c270b2ef3bb36bf87373bb3e5abef7c39a1b74a4dcef9",
+			"first": "Brian",
+			"last": "Henry",
+			"job_title": "Developer",
+			"company": "BrianHenry.ie",
+			"company_url": "http://BrianHenry.ie",
+			"gravatar_hash": "3541a510f89dedd04f0e7103201e411f6f22685a13e941b3384d97d4c7d32b09",
+			"added_at": "2026-08-05T20:00:42.689Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "24dffdc6c58d6bc52a8315b04f70d740eb12591a474c1237ca7248cef0b3349a",
@@ -5578,6 +5590,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "baf945000251b2d25003f8930652bcfb652cd8ff2a0fb1b4933c5b3e261587ec",
+			"first": "Alexandra",
+			"last": "Bracher",
+			"job_title": "Graphic Designer",
+			"company": "abbracherdesign.com",
+			"company_url": "http://abbracherdesign.com",
+			"gravatar_hash": "4478f6c378b84dabc091d2709a32269572ec17feb6566aa23f138f2c676ebb88",
+			"added_at": "2026-08-05T20:00:42.689Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "bb569546014108298ab46bb98bfe21d65150a88ebd232f336fb71bf745cff1e3",
