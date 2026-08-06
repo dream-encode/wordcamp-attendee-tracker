@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-06T12:28:47.731Z",
-	"total": 647,
-	"rows": 655,
+	"updated_at": "2026-08-06T14:57:44.913Z",
+	"total": 648,
+	"rows": 656,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -4691,6 +4691,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "9629f1b707c7750a2159797bd557933bde70a522406508d9e7bf31100d24bae5",
+			"first": "Jennifer",
+			"last": "Stern",
+			"job_title": "Digital Marketing Strategist",
+			"company": "markitrockit.com",
+			"company_url": "http://markitrockit.com",
+			"gravatar_hash": "5cfb3aed12005e83117b887a6f3db69b029cf674ab7b09ec357aeb6f8b8329a0",
+			"added_at": "2026-08-06T14:57:44.913Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "96750ee52d90719f6f4dce7a97b3bbcf871d8f335b7c6a53c3091546c12a1720",
