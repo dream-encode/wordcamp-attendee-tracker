@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-06T06:00:49.115Z",
-	"total": 645,
-	"rows": 653,
+	"updated_at": "2026-08-06T12:28:47.731Z",
+	"total": 647,
+	"rows": 655,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -707,6 +707,18 @@
 			"baseline": true
 		},
 		{
+			"key": "1987883476b805ade0e01d7e0c53dc96bca941fdbbefd84fac20baa99b896308",
+			"first": "Eric Jinyoung",
+			"last": "Hu",
+			"job_title": "Account Executive",
+			"company": "rtcamp.com",
+			"company_url": "https://rtcamp.com/",
+			"gravatar_hash": "e0dfe358b9aef4d236be38e70252ab30dd5a97589adb7624e7a87f2776e728d4",
+			"added_at": "2026-08-06T12:28:47.731Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "19d24a11c27af1ebcc0d3ce2f7ef59adf9004229223abc7eead6b253b017c21a",
 			"first": "Sadiksha",
 			"last": "Lamsal",
@@ -777,6 +789,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "1ac2bca6eaa6d50baff71b5abded9d4e5e7d3b23da606b11387068a0b5ab16ab",
+			"first": "Kyle",
+			"last": "Huntzinger",
+			"job_title": "Director of Design",
+			"company": "rtcamp.com",
+			"company_url": "http://rtcamp.com",
+			"gravatar_hash": "085896bab7d411fce86e3e9e18c6ec50859339f20b5048c5969e2087ab6f3110",
+			"added_at": "2026-08-06T12:28:47.731Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "1b2079fb879ef2cc8afe21a9bbab1e8fe645ac1dc7a38680beb2afb6d533eee0",
