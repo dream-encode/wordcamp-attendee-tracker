@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-05T21:00:39.381Z",
-	"total": 643,
-	"rows": 651,
+	"updated_at": "2026-08-06T00:00:43.992Z",
+	"total": 642,
+	"rows": 650,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -1651,7 +1651,7 @@
 			"company_url": "https://mediaforge.pro",
 			"gravatar_hash": "71f50ac92b554283502e5d45f2e33088f6add7068fb931261f32f0a075a942af",
 			"added_at": "2026-08-04T18:40:39.884Z",
-			"departed_at": null,
+			"departed_at": "2026-08-06T00:00:43.992Z",
 			"baseline": true
 		},
 		{
