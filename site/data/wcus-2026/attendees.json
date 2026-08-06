@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-06T00:58:43.392Z",
-	"total": 643,
-	"rows": 651,
+	"updated_at": "2026-08-06T04:00:38.924Z",
+	"total": 645,
+	"rows": 653,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -1437,6 +1437,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "3548e59ac4b5fba4170b2e4ff991babdea33cc43ecff5739bc95431c6dd12650",
+			"first": "Nathan",
+			"last": "Booker",
+			"job_title": "CPO",
+			"company": "runtype.com",
+			"company_url": "https://runtype.com",
+			"gravatar_hash": "fe7196b994c6ca2367a1cd2ed717bf382c30bb107e211892d7e7fada5dcdae74",
+			"added_at": "2026-08-06T04:00:38.924Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "357c2505b65f1df81aadf2535ad1e6ff3f3032e6ba3e410ccc2e8b4e350fd174",
@@ -4979,6 +4991,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "a2893a944bd1e7829089ef3e902061a4fb4d7dee1e4ab2f3150feb365305a125",
+			"first": "Nate",
+			"last": "Stewart",
+			"job_title": "CEO",
+			"company": "runtype.com",
+			"company_url": "https://runtype.com",
+			"gravatar_hash": "d137ce752498894d109eb2bfabdd8073e0eaf38e0ef12f41843805c18fd5d3fd",
+			"added_at": "2026-08-06T04:00:38.924Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "a2f8bb842173f0bb83b12930612895edeff5c8c3300762f9875cd27c43a9044b",
