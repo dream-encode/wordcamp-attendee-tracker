@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-06T00:00:43.992Z",
-	"total": 642,
-	"rows": 650,
+	"updated_at": "2026-08-06T00:58:43.392Z",
+	"total": 643,
+	"rows": 651,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -5495,6 +5495,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "b7242b75e4c0ee6a52cf12b36304c6ba429edab73fcd3bc8803fad39978d1bb5",
+			"first": "Candace",
+			"last": "Hughes",
+			"job_title": "Consultant",
+			"company": "drcandacehughes.com",
+			"company_url": "http://www.drcandacehughes.com",
+			"gravatar_hash": "68bfa9d5169a26cf8e97db373e90b108c336f9d6e60c3649e61b22c32bb44fde",
+			"added_at": "2026-08-06T00:58:43.392Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "b79820b3d066803ff5fce8e9ab9be20dcc3473bf78db159d0e85547d60e21ea5",
