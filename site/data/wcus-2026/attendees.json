@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-06T14:57:44.913Z",
-	"total": 648,
-	"rows": 656,
+	"updated_at": "2026-08-06T22:00:50.288Z",
+	"total": 657,
+	"rows": 665,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -187,6 +187,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "04d91719ede479dda4c33f1bb232d21a0bd176678b407b1c19aa20c647920006",
+			"first": "Austin",
+			"last": "Riley",
+			"job_title": "Account Executive",
+			"company": "entri.com",
+			"company_url": "http://entri.com",
+			"gravatar_hash": "632f395d8ae5e61e0fd01c6b5fea71ffcaaba4a2d96223b2e6eac075e0693175",
+			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "0573b912e2890de255efcefd0425c8f87250ff893f2008e147d6854475484123",
@@ -405,6 +417,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "0af2d2331fcfe7d61424b4bdba27d156e818cca166128cd861756efa5c45576a",
+			"first": "Tomas",
+			"last": "Mulder",
+			"job_title": "Web Developer",
+			"company": "thinkaquamarine.com",
+			"company_url": "https://www.thinkaquamarine.com",
+			"gravatar_hash": "55030ce192da8eeac5f73d2fbc20b8eb5f7c7b93e5bb7572cd155829041d42a3",
+			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "0afbbbe0357168088f6f0af733b644841a53e09537923e02cb7ae7b295531d0c",
@@ -1682,12 +1706,12 @@
 			"key": "3beeb58fc173a0debd8f252905c55002ee0b597247aebeab27c878b3447587f8",
 			"first": "Topher",
 			"last": "DeRosia",
-			"job_title": "WordPress Developer",
+			"job_title": "WordPresser",
 			"company": "mediaforge.pro",
 			"company_url": "https://mediaforge.pro",
 			"gravatar_hash": "71f50ac92b554283502e5d45f2e33088f6add7068fb931261f32f0a075a942af",
 			"added_at": "2026-08-04T18:40:39.884Z",
-			"departed_at": "2026-08-06T00:00:43.992Z",
+			"departed_at": null,
 			"baseline": true
 		},
 		{
@@ -1995,7 +2019,7 @@
 			"key": "44dff376a07058fda0e76fc02b684f5a1e53671697b3cb35825f701b91b1ebad",
 			"first": "Samantha",
 			"last": "Brockway",
-			"job_title": "Marketing Manager, Lead",
+			"job_title": "Manager, Agency Marketing",
 			"company": "wpengine.com",
 			"company_url": "https://wpengine.com",
 			"gravatar_hash": "3623efdc44943524c5828ff6ad90a30a217154846520082e0c4d7aa664e13708",
@@ -4789,6 +4813,18 @@
 			"baseline": true
 		},
 		{
+			"key": "990b86a4f9be32b216eccf2110f7abc6ef60a42834dccadfa15a70f71d12a7ce",
+			"first": "Chandler",
+			"last": "Samuels",
+			"job_title": "Director of Solutions Engineering",
+			"company": "Curotec",
+			"company_url": "http://Curotec",
+			"gravatar_hash": "f3911ca4e5899ec99d2580a3aabf12839c7721a7b68f7ea15cb8695462c9ebac",
+			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "99494a1e26711462f45219bc6c83abb8543aa93fec739e925d8b3eb4e5df48a1",
 			"first": "Ankur",
 			"last": "Chotai",
@@ -5821,6 +5857,18 @@
 			"baseline": true
 		},
 		{
+			"key": "bdcf024339138541278103e16c2633f2c39b15d5a2941b39c2ba8c85b335ba4c",
+			"first": "Kris",
+			"last": "Esfandiary",
+			"job_title": "Account Manager",
+			"company": "tenrec.com",
+			"company_url": "http://tenrec.com",
+			"gravatar_hash": "c0cd59905754440d5120d23c74bb6eb779c115b0a2f02e8951d1dca75e55e036",
+			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "be2ba2ebd2234584fb01c3531701a3c77687f6bee6376f52cda017d5a72aa3dc",
 			"first": "Robert",
 			"last": "Whitley",
@@ -5939,6 +5987,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "bfeaad6d86d404921c74d99d0dc68be7931d449355fb41441243c9f11df4065d",
+			"first": "Jeffrey",
+			"last": "Zalischi",
+			"job_title": "AI Engineering Lead",
+			"company": "trewknowledge.com",
+			"company_url": "https://trewknowledge.com/",
+			"gravatar_hash": "2c6d4fb7bba2f5da97d2e837ef183a815ea3a3b75492252aab34bb5f52005fd1",
+			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "c176f55b0e96f9512723a5100507ada5a64d5d2dab9f3a7b096bfc2a14d94341",
@@ -6083,6 +6143,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "c660f7c03d9be8aa470dd0db8c54165cfe4381084e2645f816d088461c7f05e7",
+			"first": "Andrew",
+			"last": "Ramirez",
+			"job_title": "Strategic Partnerships Manager",
+			"company": "Google",
+			"company_url": "http://Google",
+			"gravatar_hash": "832dfbd59be900f535e0219f5fccda5dc2bf90083c7f8ef1eaa858e4ca4bae25",
+			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "c69b7995f9eafc6cd32ecfefda0be328d989106708f06fab60b1d2d54264e633",
@@ -7276,6 +7348,18 @@
 			"baseline": true
 		},
 		{
+			"key": "eee69dc47a7f3fc7cf1ecfb976276a09c3435644275b9512822d553de54b4528",
+			"first": "Fernando",
+			"last": "Claussen",
+			"job_title": "Director of Engineering",
+			"company": "trewknowledge.com",
+			"company_url": "https://trewknowledge.com/",
+			"gravatar_hash": "c258e64a3a87ce8a5bed86b58b8af6f9ab8ac983894e510522ea179765cce0f5",
+			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "ef2755f1734c1b975c16f933dff398c36b593f701deaae19d9bce477892a5329",
 			"first": "Cory",
 			"last": "Miller",
@@ -7718,6 +7802,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "fc3aa9493d4e0d88a97508a3b9c1c09b4e5d1ac6e3014466886eb8f5fe0a0a51",
+			"first": "Kelly",
+			"last": "Hoffman",
+			"job_title": "Design",
+			"company": "kelly.blog",
+			"company_url": "http://kelly.blog",
+			"gravatar_hash": "82b79ce0b96409d22b4a159f5a38cc52670b0ced251535297aa74ad7101a4ee0",
+			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "fc4a308784c6452e1ac53c7759aebe87938e05c595bc72b96f7dd76ed2e03c49",
