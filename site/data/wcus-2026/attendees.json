@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T03:30:35.037Z",
-	"total": 659,
-	"rows": 667,
+	"updated_at": "2026-08-07T11:00:46.853Z",
+	"total": 661,
+	"rows": 669,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -3768,6 +3768,18 @@
 			"baseline": true
 		},
 		{
+			"key": "762dfe8875065d8c7f97b8e17b75e24cd58ad903b86311f5044c7dc2501615dc",
+			"first": "Brad",
+			"last": "Szymalak",
+			"job_title": "Owner",
+			"company": "ADMAILER LLC",
+			"company_url": "http://ADMAILER%20LLC",
+			"gravatar_hash": "701ed55994931735bec5b302b865d5ad0440849a11ad970bd67d2a31868be4d5",
+			"added_at": "2026-08-07T11:00:46.853Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "768912940d86e3d9baf1ac61873d8a9d8a545cff7765dcc96145b5572ced4316",
 			"first": "Amanda",
 			"last": "Hawkins",
@@ -7358,6 +7370,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "eea804170055993725f498079603645b5b53258e111a87854b2bcf83f65d979a",
+			"first": "NATE",
+			"last": "KENNEDY",
+			"job_title": "Partner/ owner",
+			"company": "HERBAL HEALER CONSULTANT",
+			"company_url": "http://HERBAL%20HEALER%20CONSULTANT",
+			"gravatar_hash": "eb7e4f490db0d9590970b997cb3368f48a311e8bed696d1f341b162c94e84d1c",
+			"added_at": "2026-08-07T11:00:46.853Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "eee48a9f8c4d41a8bd315306809b97ccaac5fe7d1c94af2235a71374d94db6f0",
