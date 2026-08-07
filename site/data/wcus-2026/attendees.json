@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T11:00:46.853Z",
-	"total": 661,
-	"rows": 669,
+	"updated_at": "2026-08-07T15:00:20.889Z",
+	"total": 662,
+	"rows": 670,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -2854,6 +2854,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "5e86c90365bb5d585d7d6c4640c56792ad6151bc12ecf481795654e74f53833d",
+			"first": "Jordan",
+			"last": "Petronelis",
+			"job_title": "CEO",
+			"company": "Pair Networks",
+			"company_url": "http://Pair%20Networks",
+			"gravatar_hash": "4f1376965862240382bb85819126c5d3c6568e708e356133e6e6d25e1eaf3d16",
+			"added_at": "2026-08-07T15:00:20.889Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "5eabb5cee3e07c7ca056ea916bae744308203183daca1ab698871db4cb41b5f5",
