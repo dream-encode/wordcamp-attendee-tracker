@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T19:01:18.398Z",
-	"total": 667,
-	"rows": 676,
+	"updated_at": "2026-08-07T19:56:08.680Z",
+	"total": 669,
+	"rows": 678,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -3829,6 +3829,18 @@
 			"baseline": true
 		},
 		{
+			"key": "759004e851fb01afa6c008fe1b43b4ddc13207181e4c23103ce9b51783cb565c",
+			"first": "Alex",
+			"last": "Feldman",
+			"job_title": "Owner",
+			"company": "LiftoffCerts.com",
+			"company_url": "http://LiftoffCerts.com",
+			"gravatar_hash": "2aae7842b49cd4f2d8573882d16e7bc6a5f598dcf12a78533f672ef5d64367d2",
+			"added_at": "2026-08-07T19:56:08.680Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "762dfe8875065d8c7f97b8e17b75e24cd58ad903b86311f5044c7dc2501615dc",
 			"first": "Brad",
 			"last": "Szymalak",
@@ -6554,6 +6566,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "d1781333559c7b0937749b2b89b725809b230c00a21b1471c532ee398f67d40f",
+			"first": "Mark",
+			"last": "Mandel",
+			"job_title": "Volunteer",
+			"company": "dcqc.page",
+			"company_url": "https://dcqc.page/",
+			"gravatar_hash": "267a0d80fb97ed228a470603319f98fdb144b15a018b4c3e93047718dfb5db33",
+			"added_at": "2026-08-07T19:56:08.680Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "d184c87d53f19487c0c1c08dffe0b5fe1cdc16cff42ac9d63296e13cb907586e",
