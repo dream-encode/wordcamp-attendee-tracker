@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T19:56:08.680Z",
-	"total": 669,
-	"rows": 678,
+	"updated_at": "2026-08-07T20:31:23.807Z",
+	"total": 670,
+	"rows": 679,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -4067,6 +4067,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "7f0c760fa1fc4cdd44d9472b0cc2e424002e32345344cb123262acd78c292d36",
+			"first": "Sundar",
+			"last": "Kumarasamy",
+			"job_title": "President",
+			"company": "creosen.com",
+			"company_url": "https://www.creosen.com/",
+			"gravatar_hash": "fd2be8dc4044c4b7caaea3aaf4e77cdda3bcf35d2da050bb28d8482f2fcd4b96",
+			"added_at": "2026-08-07T20:31:23.807Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "7fa03568218612a1270c8cec996d73d98f4190c709b2964d4f70b30272d39a7d",
