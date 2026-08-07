@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T16:01:16.138Z",
-	"total": 666,
-	"rows": 675,
+	"updated_at": "2026-08-07T19:01:18.398Z",
+	"total": 667,
+	"rows": 676,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -2795,6 +2795,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "5a9d73bf0b673c468f9e8784118bbe0b0b31f618c81d6d6432fbe49af1c72fb1",
+			"first": "Will",
+			"last": "Corbett",
+			"job_title": "Technical Support Manager",
+			"company": "greengeeks.com",
+			"company_url": "https://www.greengeeks.com",
+			"gravatar_hash": "76302d8ad8ccfeac207c2058494937cd7835744a0e89acfebbb789cf4f4ccd08",
+			"added_at": "2026-08-07T19:01:18.398Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "5afddda29c9f89212a8eb00bcebbc6e67b2c45170add9823125183f99bb18df8",
