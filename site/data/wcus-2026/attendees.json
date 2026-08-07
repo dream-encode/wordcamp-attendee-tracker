@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-06T22:00:50.288Z",
-	"total": 657,
-	"rows": 665,
+	"updated_at": "2026-08-07T01:30:23.227Z",
+	"total": 658,
+	"rows": 666,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -4967,6 +4967,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "9eea7a01070554e13bf8bfee4877c902017999d7a38a23ea695a3120fdafde10",
+			"first": "Jeanherline",
+			"last": "Santiago",
+			"job_title": "Founder & CEO",
+			"company": "moriwebstudios.com",
+			"company_url": "https://moriwebstudios.com/",
+			"gravatar_hash": "176d8195814431ca617ebff72c177330e612aa64e2e17e10bf545afb48c71dca",
+			"added_at": "2026-08-07T01:30:23.227Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "9fb7ba0d4b3001263d1581181ce3392a3d1892736d90999b797fac0551391a04",
