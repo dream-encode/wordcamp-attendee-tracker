@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T15:00:20.889Z",
-	"total": 662,
-	"rows": 670,
+	"updated_at": "2026-08-07T16:01:16.138Z",
+	"total": 666,
+	"rows": 675,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -169,8 +169,8 @@
 			"first": "Si",
 			"last": "Robins",
 			"job_title": "Director of Business Development",
-			"company": "Four Kitchens",
-			"company_url": "http://Four%20Kitchens",
+			"company": "fourkitchens.com",
+			"company_url": "https://fourkitchens.com",
 			"gravatar_hash": "11c8a715b0dc579660d270b32d1bd361a5cc45f445c02d3000d4d8e6bf156038",
 			"added_at": "2026-08-04T23:27:49.295Z",
 			"departed_at": null,
@@ -465,6 +465,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "0c6668bc73deb71c2b8da8f1e4511237722fcb6abef0a02926438198325a7575",
+			"first": "Anthony",
+			"last": "Asaaad",
+			"job_title": "Product Support Director",
+			"company": "Bluehost.com",
+			"company_url": "http://Bluehost.com",
+			"gravatar_hash": "9be8d64323220dc67bc94e847637bc0fb2fea3040bd8fd7a7567d7bde40eee8a",
+			"added_at": "2026-08-07T16:01:16.138Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "0cfb65a2aa7bb2cf229f201923f70bedba759e2a9be37f0e8e4f746ecd917d95",
@@ -1247,6 +1259,18 @@
 			"baseline": true
 		},
 		{
+			"key": "2f902f06f37534ecca3507090048c2da1585886e8a46ec9e282e3f22f302cb1e",
+			"first": "Brittany",
+			"last": "Celata",
+			"job_title": "Head of Influencer Marketing",
+			"company": "Automattic",
+			"company_url": "http://Automattic",
+			"gravatar_hash": "9950b2838a6b7825723bc01c7f98ca10ce96ed401e1026cb8fabe0f7788ba099",
+			"added_at": "2026-08-07T16:01:16.138Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "2fd3226b34f92edc8a2a3468aeee12a26a0f08a5533ac15c531bbc7775c1d882",
 			"first": "Francis",
 			"last": "Agulto",
@@ -1389,6 +1413,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "32b1fa4c4bd12e5eda0f36c63cb69b9139865ba60c47cbf47c20a985f5506588",
+			"first": "Emma",
+			"last": "Kingston",
+			"job_title": "Head of Websites",
+			"company": "relentless-digital.com",
+			"company_url": "http://www.relentless-digital.com",
+			"gravatar_hash": "b374b7ff64a82b97b10710689395b29b99257c1c9e72123650c8062f0b4af672",
+			"added_at": "2026-08-07T16:01:16.138Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "32dad387d98e758b4e926a5e65474ac975a0290440b097d2a27860f144f9b69d",
@@ -2013,7 +2049,8 @@
 			"gravatar_hash": "18f4f7ebdcd48383951a52a88f401bd6460ae74b626016010b1f0604cac90826",
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
-			"baseline": true
+			"baseline": true,
+			"ticket_rows": 2
 		},
 		{
 			"key": "44dff376a07058fda0e76fc02b684f5a1e53671697b3cb35825f701b91b1ebad",
@@ -6045,6 +6082,18 @@
 			"company_url": "https://trewknowledge.com/",
 			"gravatar_hash": "2c6d4fb7bba2f5da97d2e837ef183a815ea3a3b75492252aab34bb5f52005fd1",
 			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "c0e058e81217bdac125c6d686d66c5e2d60dd91aa000ecf1edb49ede98a30d3a",
+			"first": "Kandace",
+			"last": "Kennedy",
+			"job_title": "Web Project Manager",
+			"company": "relentless-digital.com",
+			"company_url": "http://www.relentless-digital.com",
+			"gravatar_hash": "c5af4c5b999efe7af1c3959ac9509dac30811c7076c4e91ab80fd72e24e9c78b",
+			"added_at": "2026-08-07T16:01:16.138Z",
 			"departed_at": null,
 			"baseline": false
 		},
