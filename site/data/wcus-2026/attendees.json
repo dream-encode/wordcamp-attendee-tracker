@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T01:30:23.227Z",
-	"total": 658,
-	"rows": 666,
+	"updated_at": "2026-08-07T03:30:35.037Z",
+	"total": 659,
+	"rows": 667,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -4366,6 +4366,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "8d73e016e8ce3026e51b27428e5f9ca74463d17e640b0e291da0364053c4729c",
+			"first": "Matias",
+			"last": "Benedetto",
+			"job_title": "developer",
+			"company": "mebenedetto.com",
+			"company_url": "https://mebenedetto.com",
+			"gravatar_hash": "b5dd3c2b94657a27476c5af82d15cbcca86f5e57c47947822e9810ffdd4ca0d0",
+			"added_at": "2026-08-07T03:30:35.037Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "8dc9846a3b54602a5719acb80b15085e8f5faf312bda95fb9336d1940dcddbe9",
