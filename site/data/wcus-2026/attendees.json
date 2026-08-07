@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T20:31:23.807Z",
-	"total": 670,
-	"rows": 679,
+	"updated_at": "2026-08-07T21:47:09.846Z",
+	"total": 671,
+	"rows": 680,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -7539,6 +7539,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "efb06901e58ee282a3ac77b3942ef17e2110a9dcb4e1df601a0b4b36941d39b4",
+			"first": "Aileen",
+			"last": "Martinez",
+			"job_title": "Local Artist",
+			"company": "lookseedraw.com",
+			"company_url": "http://lookseedraw.com",
+			"gravatar_hash": "4cc5bdc7c84293e1344867138b23327e6934de7b09f0d2a2fca1e28835d8c0c4",
+			"added_at": "2026-08-07T21:47:09.846Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "efc13db6b89470253c65cafcddb0725b1fa4563e349c0171916fb952f1c669aa",
