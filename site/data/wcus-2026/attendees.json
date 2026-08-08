@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-08T23:01:05.831Z",
-	"total": 675,
-	"rows": 684,
+	"updated_at": "2026-08-08T23:58:05.010Z",
+	"total": 676,
+	"rows": 685,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -7334,6 +7334,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "e53a0f1cc228dbfb6fd3d93cf284ab154ec28df5deb1741da81b56a883e4389e",
+			"first": "Derek",
+			"last": "Ashauer",
+			"job_title": "Product Maker",
+			"company": "wpsunshine.com",
+			"company_url": "https://wpsunshine.com",
+			"gravatar_hash": "7576f2bf24340184910bc71f1e3f4bd29a660e37dff38d9443d90b1ac92cfa45",
+			"added_at": "2026-08-08T23:58:05.010Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "e5f45d9e9da4381492a8551845f952dafe2a2c860caed460db1e7af31e7a35da",
