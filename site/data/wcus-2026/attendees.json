@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-08T21:31:13.640Z",
-	"total": 674,
-	"rows": 683,
+	"updated_at": "2026-08-08T23:01:05.831Z",
+	"total": 675,
+	"rows": 684,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -763,6 +763,18 @@
 			"company_url": "https://rtcamp.com/",
 			"gravatar_hash": "e0dfe358b9aef4d236be38e70252ab30dd5a97589adb7624e7a87f2776e728d4",
 			"added_at": "2026-08-06T12:28:47.731Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "19c68db05e6cf4f2975f32c516115a9d7d281b5fa0ed95e89549bf5411c0ce1c",
+			"first": "Amy",
+			"last": "London",
+			"job_title": "Writer",
+			"company": "amylondon.com",
+			"company_url": "http://amylondon.com",
+			"gravatar_hash": "d026ed945b2b2dfd7bdd8bed907778681c7b874ea60a449f407b00f11c27e148",
+			"added_at": "2026-08-08T23:01:05.831Z",
 			"departed_at": null,
 			"baseline": false
 		},
