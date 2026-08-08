@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-07T21:47:09.846Z",
-	"total": 671,
-	"rows": 680,
+	"updated_at": "2026-08-08T01:01:14.543Z",
+	"total": 672,
+	"rows": 681,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -513,6 +513,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "104c6682dc06d3f7044b54dffd1406c10a5941788d4ccd1e08b663ff864604c7",
+			"first": "Derin",
+			"last": "Tolu",
+			"job_title": "Brand Experience Developer",
+			"company": "derintolu.com",
+			"company_url": "https://derintolu.com",
+			"gravatar_hash": "dbef8780ce54094ed63007b42618d0c8bd12b3ca535376361e535a7eaa3784e7",
+			"added_at": "2026-08-08T01:01:14.543Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "1077ac18652daef9df0de427d35d852c0652f1031fa80667bbac86248160f03c",
@@ -2135,6 +2147,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "45bdea07d32095089cdb2df6b070985b4a13afbe786e9c845610b57e4766f86c",
+			"first": "Sergio",
+			"last": "Scabuzzo",
+			"job_title": "Onboarding Team Leader",
+			"company": "nerdpress.net",
+			"company_url": "https://www.nerdpress.net",
+			"gravatar_hash": "507f16f65971136275a157d48bf6ce234d9d090ba6f9ea227a777674c0d0e2ab",
+			"added_at": "2026-08-08T01:01:14.543Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "46074027fbd86a1558e4f7301eb14281a456ce950b2fee0cc13e5c9399b838ce",
@@ -3813,7 +3837,7 @@
 			"company_url": "http://derintolu.com",
 			"gravatar_hash": "0b57c1204e68661a32963358e502e04a456098d94d50500d005c5402360eb4a8",
 			"added_at": "2026-08-04T18:40:39.884Z",
-			"departed_at": null,
+			"departed_at": "2026-08-08T01:01:14.543Z",
 			"baseline": true
 		},
 		{
