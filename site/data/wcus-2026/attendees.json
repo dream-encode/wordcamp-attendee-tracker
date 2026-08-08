@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-08T01:01:14.543Z",
-	"total": 672,
-	"rows": 681,
+	"updated_at": "2026-08-08T17:31:10.797Z",
+	"total": 674,
+	"rows": 683,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -6218,6 +6218,18 @@
 			"baseline": true
 		},
 		{
+			"key": "c28769f2829f3f48aa7a4215b6df2f20e78784954b71202d771488a474f7d783",
+			"first": "Garrett",
+			"last": "Baldwin",
+			"job_title": "UX Developer",
+			"company": "Alley.com",
+			"company_url": "http://Alley.com",
+			"gravatar_hash": "d2baf0dc5c8aea00a9a252fa38aa6e8baca9e25ad2eadcd999e197d7e298e116",
+			"added_at": "2026-08-08T17:31:10.797Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "c2dbf352fb51dd30113d4a3fe51586e570fb4abaa4a5e1e5d8d26f9cc4f98f3a",
 			"first": "Mark",
 			"last": "Marzeotti",
@@ -6566,6 +6578,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "cfb506abed002ab562fec042749066fe01f7db60d7bbe6ba71486daea6c3f6e2",
+			"first": "Konstantinos",
+			"last": "Almpanidis",
+			"job_title": "Web Developer",
+			"company": "fspirits.com",
+			"company_url": "https://fspirits.com/",
+			"gravatar_hash": "ddb5342419c8c863518bb1dbed9ede4f093fd3f7413b780315195b18a4604b59",
+			"added_at": "2026-08-08T17:31:10.797Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "d0396ce0b84be7910ca32a9e720223e0de8d30cd56af801a66b5f38742501776",
