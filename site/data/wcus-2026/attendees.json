@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-09T03:31:20.779Z",
-	"total": 677,
-	"rows": 686,
+	"updated_at": "2026-08-09T18:01:09.255Z",
+	"total": 678,
+	"rows": 687,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -6192,6 +6192,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "c1e7bafe178de1d93529ac71ac6ad204fb5e8f30ad9a354b727f76088fc9d2a0",
+			"first": "Jeff",
+			"last": "Lantz",
+			"job_title": "Attorney & CEO",
+			"company": "esquireinteractive.com",
+			"company_url": "http://esquireinteractive.com",
+			"gravatar_hash": "0f26defcf24aff4c783008aa781b50bae1a7f865e84a07bafb1b54ccdfced95f",
+			"added_at": "2026-08-09T18:01:09.255Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "c210673db73ddd00f9357f1a5ddc4347e7614d42678908163f5a298ca38750a0",
