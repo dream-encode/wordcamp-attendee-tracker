@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-09T18:01:09.255Z",
-	"total": 678,
-	"rows": 687,
+	"updated_at": "2026-08-09T19:31:13.824Z",
+	"total": 679,
+	"rows": 688,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -2050,6 +2050,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "4433f5aaea541421701920bbe4b07d7ef9b415ed0d933a8f3682b19b3c51001c",
+			"first": "Ursula",
+			"last": "Wilson",
+			"job_title": "CEO / Founder",
+			"company": "mwdigitalmarketinggroup.com",
+			"company_url": "http://mwdigitalmarketinggroup.com",
+			"gravatar_hash": "2d70f4dbe902157378809f69c1f8feb5bb09b7e16852cee3c2747d910b0cce3c",
+			"added_at": "2026-08-09T19:31:13.824Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "44da8ea62f7c21b5565f5d4247e610a08e576a9be2eb822f04f12e2fccb3a521",
