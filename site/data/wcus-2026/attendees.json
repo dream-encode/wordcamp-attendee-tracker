@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-08T23:58:05.010Z",
-	"total": 676,
-	"rows": 685,
+	"updated_at": "2026-08-09T03:31:20.779Z",
+	"total": 677,
+	"rows": 686,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -7935,6 +7935,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "f7c63a8e3d7a075c2a7b2868cd93370f4f7f4f99232366a3e46a7ee420e85837",
+			"first": "Bob",
+			"last": "Ascott",
+			"job_title": "Management Technologist",
+			"company": "ascottbusinessadvisors.com",
+			"company_url": "https://ascottbusinessadvisors.com",
+			"gravatar_hash": "c9f92ef48d8b964635b6361e601d4288154451d3dbac741ad80c16b1127854c1",
+			"added_at": "2026-08-09T03:31:20.779Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "f7ee6176fa0c27f48357c6740f1ff11fbf43bc1dc939fa491b3e5272f9a92754",
