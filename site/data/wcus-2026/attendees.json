@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-09T19:31:13.824Z",
-	"total": 679,
-	"rows": 688,
+	"updated_at": "2026-08-10T01:32:08.976Z",
+	"total": 680,
+	"rows": 689,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -5280,6 +5280,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "a4cc7a6f80efc40ac227219617c4ff32dabe7d6e763dd1257de10928a0892de4",
+			"first": "Jeanette",
+			"last": "Wang",
+			"job_title": "Project Director",
+			"company": "stonedigital.com.au",
+			"company_url": "https://stonedigital.com.au/",
+			"gravatar_hash": "c418b6dec5fbabeb33aa4daa4ae55e1c997a83628607d0279686f18a0624de9a",
+			"added_at": "2026-08-10T01:32:08.976Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "a53d746251bed3240d986ea7a0aa233d922b0741dd4b5d3d51749a51cf21afad",
