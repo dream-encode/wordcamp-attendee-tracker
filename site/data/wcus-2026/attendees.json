@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T07:01:13.740Z",
-	"total": 683,
-	"rows": 692,
+	"updated_at": "2026-08-10T13:01:09.880Z",
+	"total": 684,
+	"rows": 693,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -3935,6 +3935,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "77178cf2c66aeee5b0e4167107c18782d04ebd6af8016160fb724fc24cbd648b",
+			"first": "Andrew",
+			"last": "Benner",
+			"job_title": "Sr Graphic Designer",
+			"company": "sullivan-palatek.com",
+			"company_url": "https://www.sullivan-palatek.com/",
+			"gravatar_hash": "3fd8325bc5bb6970b384afdf80ce9a95542d0b4ec6f2c8cc1e479c06d5af132e",
+			"added_at": "2026-08-10T13:01:09.880Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "771b81289831af4ea6d907c7ed2a0bd3b7a1fde6ab860df0441162a348331bd8",
