@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T20:52:09.349Z",
-	"total": 690,
-	"rows": 701,
+	"updated_at": "2026-08-10T22:31:10.311Z",
+	"total": 691,
+	"rows": 702,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -3551,6 +3551,18 @@
 			"company_url": "https://stevenword.com",
 			"gravatar_hash": "ac12e8709856e69ea9ab7341388e1bf3642744eaa8219d010c9b2dab9e520cd6",
 			"added_at": "2026-08-10T03:31:10.279Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "6d0e343b91f097d397ad8fc755c1a7c2711d99c92b264adfcf400d2cf0ea9983",
+			"first": "Jennifer",
+			"last": "Bourn",
+			"job_title": "Brand Architect",
+			"company": "bourncreative.com",
+			"company_url": "https://bourncreative.com",
+			"gravatar_hash": "4132ac58366aeb93450cbb51f073d080a9c017c23228c78243718350d813b9b0",
+			"added_at": "2026-08-10T22:31:10.311Z",
 			"departed_at": null,
 			"baseline": false
 		},
