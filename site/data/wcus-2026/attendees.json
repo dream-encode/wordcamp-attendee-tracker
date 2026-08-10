@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T17:56:19.631Z",
-	"total": 688,
-	"rows": 698,
+	"updated_at": "2026-08-10T19:01:11.102Z",
+	"total": 689,
+	"rows": 699,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -2685,6 +2685,18 @@
 			"company_url": "https://vintageolisa.com",
 			"gravatar_hash": "1e53c1aa10e25f3b5958d4bf457f64ee306e985913d1cbc9c9b271c965472d27",
 			"added_at": "2026-08-05T21:00:39.381Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "54858fe0af9f2ee63aa310c758a8f457b694f675ca65a6b6f4539b041a0620ac",
+			"first": "Bo",
+			"last": "English-Wiczling",
+			"job_title": "Vice President, Global Developer Relations",
+			"company": "paypal.com",
+			"company_url": "http://paypal.com",
+			"gravatar_hash": "09c1bff666e0f5ad03e7e83699f962184bf4451a46473a346e77d8174b178175",
+			"added_at": "2026-08-10T19:01:11.102Z",
 			"departed_at": null,
 			"baseline": false
 		},
