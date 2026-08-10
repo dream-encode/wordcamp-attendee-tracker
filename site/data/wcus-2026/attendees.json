@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T17:01:18.633Z",
-	"total": 685,
-	"rows": 695,
+	"updated_at": "2026-08-10T17:56:19.631Z",
+	"total": 688,
+	"rows": 698,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -645,6 +645,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "15f981e6f3000cfeaf8983a1379ef2fed9f3a72ce7d03a8fa6ce4aec516d8c59",
+			"first": "Jenea",
+			"last": "Taylor",
+			"job_title": "Executive Assistant and Communication Specialist",
+			"company": "Cherokee Preservation Foundation",
+			"company_url": "http://Cherokee%20Preservation%20Foundation",
+			"gravatar_hash": "b65e8991c3602f225c54f2e6efb14336b43181c96f41bbc523c19b5ac677ef51",
+			"added_at": "2026-08-10T17:56:19.631Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "15fb8eb6c155cb398e67b0116c4d75a26a44350dbbff18d5fa3b61577001c8d4",
@@ -6520,6 +6532,18 @@
 			"baseline": true
 		},
 		{
+			"key": "c9f3f5a8f25bb4fdda672fc8ddf64340318581f7396b4a77d2b46c7d09dd2603",
+			"first": "Mark",
+			"last": "Davies",
+			"job_title": "CFO",
+			"company": "Automattic",
+			"company_url": "http://Automattic",
+			"gravatar_hash": "024bc580328d02fd2c41e20332869097e328646cdce905eabbe69db5f33404e5",
+			"added_at": "2026-08-10T17:56:19.631Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "cbd14180a926b65c90bbbef0b3fb13f7c6f21cb7e616a9c323837ff6b48681fc",
 			"first": "Stephen",
 			"last": "Kinzey",
@@ -6915,6 +6939,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "d72ce64178b4e078b0a8b400e2f2dff84232872c15bd0d7673e18446f94b8adf",
+			"first": "Monaka",
+			"last": "Wachacha",
+			"job_title": "Administrative Assistant",
+			"company": "Cherokee Preservation Foundation",
+			"company_url": "http://Cherokee%20Preservation%20Foundation",
+			"gravatar_hash": "44b4cfe0d02a37bb7b90c0588ad57d0fa498b1392cef34c2928c4aafe1ce7387",
+			"added_at": "2026-08-10T17:56:19.631Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "d72fbac97188dda2992d15e2735cd7b2f26940cb5496fbf463ed8617df2f9b59",
