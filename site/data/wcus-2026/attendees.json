@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T02:01:10.354Z",
-	"total": 681,
-	"rows": 690,
+	"updated_at": "2026-08-10T03:31:10.279Z",
+	"total": 682,
+	"rows": 691,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -3503,6 +3503,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "6cf73feb2744ffdc22dd04bfff574ac8e33995af22309ba245d6fb43a4e9e44a",
+			"first": "Steven",
+			"last": "Word",
+			"job_title": "Sr. Software Engineer",
+			"company": "stevenword.com",
+			"company_url": "https://stevenword.com",
+			"gravatar_hash": "ac12e8709856e69ea9ab7341388e1bf3642744eaa8219d010c9b2dab9e520cd6",
+			"added_at": "2026-08-10T03:31:10.279Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "6da0a156bf8883cbd9a879eaaa8102d3acef5aad25fce5102296e05265104941",
