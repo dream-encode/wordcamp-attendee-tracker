@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T01:32:08.976Z",
-	"total": 680,
-	"rows": 689,
+	"updated_at": "2026-08-10T02:01:10.354Z",
+	"total": 681,
+	"rows": 690,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -3995,6 +3995,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "799319586a6a1b80f48095504f81a06bd334624c9a590a01a2db6b7b9ed292a6",
+			"first": "April",
+			"last": "Swenson",
+			"job_title": "Finance Analyst",
+			"company": "Apple,Inc",
+			"company_url": "http://Apple,Inc",
+			"gravatar_hash": "3e5fc5e102da3beb1055fc56909e922fabf599d3a0be04e7eebb83c441d73ccc",
+			"added_at": "2026-08-10T02:01:10.354Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "7a41b029aa93e628cbb4674f8095d6de7deab87f1d942c8c902424575757d791",
