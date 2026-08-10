@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T03:31:10.279Z",
-	"total": 682,
-	"rows": 691,
+	"updated_at": "2026-08-10T07:01:13.740Z",
+	"total": 683,
+	"rows": 692,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -2038,6 +2038,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "43ad974d8cb03abd83c081689464f1c6bba47523177ec1a753c26bb98e3006c7",
+			"first": "Andrew",
+			"last": "Hall",
+			"job_title": "Technical Account Manager, Owner",
+			"company": "hallstardigital.com",
+			"company_url": "http://www.hallstardigital.com",
+			"gravatar_hash": "008e835df5323835262e72f8f8b394f826f6c9d76cf5811528dad23389fc73de",
+			"added_at": "2026-08-10T07:01:13.740Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "43c7e72c6a39ae9aa6f889e0dabd29cd382f2fb80d284b264dd6851014407a41",
