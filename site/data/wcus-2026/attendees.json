@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T16:01:22.773Z",
-	"total": 684,
-	"rows": 694,
+	"updated_at": "2026-08-10T17:01:18.633Z",
+	"total": 685,
+	"rows": 695,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -8080,6 +8080,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "fa93058e285496ca0eb2064a6a15dbd6c27ae3882817d8cdeb9d544f0170f2b2",
+			"first": "Jeremy",
+			"last": "Sammons",
+			"job_title": "Senior Manager, Web Technology & Experience",
+			"company": "Trust for Public Land",
+			"company_url": "http://Trust%20for%20Public%20Land",
+			"gravatar_hash": "da89a6bf1e88a4f32d7c8dcf865378c6ee57a4b81e9c523a75d00e9cc5aa9b57",
+			"added_at": "2026-08-10T17:01:18.633Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "fab3b14ed5c1211bcdc58622311cef2e552a10528dafe3ea24652f856c1e68ff",
