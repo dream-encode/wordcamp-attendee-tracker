@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T19:01:11.102Z",
-	"total": 689,
-	"rows": 699,
+	"updated_at": "2026-08-10T20:52:09.349Z",
+	"total": 690,
+	"rows": 701,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -644,7 +644,8 @@
 			"gravatar_hash": "d33be4b3ef75fdaeb78e8ef5163c6c49d8ae8f1df660e712e65ee370ae39fb2d",
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
-			"baseline": true
+			"baseline": true,
+			"ticket_rows": 2
 		},
 		{
 			"key": "15f981e6f3000cfeaf8983a1379ef2fed9f3a72ce7d03a8fa6ce4aec516d8c59",
@@ -4955,6 +4956,18 @@
 			"company_url": "http://markitrockit.com",
 			"gravatar_hash": "5cfb3aed12005e83117b887a6f3db69b029cf674ab7b09ec357aeb6f8b8329a0",
 			"added_at": "2026-08-06T14:57:44.913Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "965e9dfa9333301dc15d0142f25aebe01713a30a3ddc04ea1bb4df70548fe0a7",
+			"first": "Allison",
+			"last": "Youngs",
+			"job_title": "Coordinator at ASU WATTS Office of Sex Trafficking Intervention Research",
+			"company": "Arizona State University",
+			"company_url": "http://Arizona%20State%20University",
+			"gravatar_hash": "1287b133818d84ea6f6c2e9cc12d93f0f47b425dc54f202b86c15d901a95974f",
+			"added_at": "2026-08-10T20:52:09.349Z",
 			"departed_at": null,
 			"baseline": false
 		},
