@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T04:31:18.674Z",
-	"total": 692,
-	"rows": 703,
+	"updated_at": "2026-08-11T05:01:14.997Z",
+	"total": 693,
+	"rows": 704,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -3216,6 +3216,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "62ce9e1c53f514c5b05388f6d94ffe42696c60bff91cf4ccd3a6b305c8254b41",
+			"first": "Luz",
+			"last": "Rimban",
+			"job_title": "Writer",
+			"company": "luzrimban.com",
+			"company_url": "http://www.luzrimban.com",
+			"gravatar_hash": "9fea56040e9991d6cf527c15a939f0ff7e815d22d770e9de33a59da35c96a2a6",
+			"added_at": "2026-08-11T05:01:14.997Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "63000b82bd13027e5d05135f081218fce6bef09971f350972d6a95d8bf2ef462",
