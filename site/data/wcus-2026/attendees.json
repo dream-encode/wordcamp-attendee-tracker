@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T21:01:11.645Z",
-	"total": 706,
-	"rows": 717,
+	"updated_at": "2026-08-11T22:01:15.048Z",
+	"total": 707,
+	"rows": 718,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -3613,6 +3613,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "6c0abc6f1a8842ba1ff6c5fed0d36829f542a2932b3eb11796ac5c7df1135962",
+			"first": "Lisa",
+			"last": "Olson",
+			"job_title": "Owner",
+			"company": "company",
+			"company_url": "http://company",
+			"gravatar_hash": "5d6d7d6a24773a0ef4265cffba31dca84f36b1c95eab4d51f783c6c29d168bb2",
+			"added_at": "2026-08-11T22:01:15.048Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "6ce2d4cbab2776c8f71738b04f468c515d2e4a6028db0c03335e60001d532e5d",
