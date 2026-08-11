@@ -4,10 +4,22 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T17:01:13.753Z",
-	"total": 701,
-	"rows": 712,
+	"updated_at": "2026-08-11T18:01:10.984Z",
+	"total": 702,
+	"rows": 713,
 	"attendees": [
+		{
+			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
+			"first": "Louie",
+			"last": "Bischoff",
+			"job_title": "Founder/Owner",
+			"company": "nrtmarketingsolutions.com",
+			"company_url": "https://www.nrtmarketingsolutions.com/",
+			"gravatar_hash": "6e3fd74568472bb1ec6c7287216c67bf9a01e95d731edbc75e317537404443a4",
+			"added_at": "2026-08-11T18:01:10.984Z",
+			"departed_at": null,
+			"baseline": false
+		},
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
 			"first": "Patrick",
