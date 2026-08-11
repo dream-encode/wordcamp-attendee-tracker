@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T19:31:15.052Z",
-	"total": 703,
-	"rows": 714,
+	"updated_at": "2026-08-11T20:20:15.762Z",
+	"total": 705,
+	"rows": 716,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -4876,6 +4876,18 @@
 			"baseline": true
 		},
 		{
+			"key": "90cd60ed3dffb131f0b25a32a5b5754c7a31449d0bf393697484202899c60d3e",
+			"first": "Syrus",
+			"last": "Akbary",
+			"job_title": "CEO",
+			"company": "wasmer.io",
+			"company_url": "http://wasmer.io",
+			"gravatar_hash": "33cc15fa8495b665b626791cd437147d9e735cf482f347ef94b644224442f417",
+			"added_at": "2026-08-11T20:20:15.762Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "91740cc1b0589ee24b7bac44313fad9de5bb09c1b37d8d50dec646d5e5787a8f",
 			"first": "Josh",
 			"last": "Eaton",
@@ -7228,6 +7240,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "da3b0678b2a9eea8dc096bebe00177dded836a75657c1910f3c902fd4fbaf522",
+			"first": "Ayush",
+			"last": "Ojha",
+			"job_title": "DevRel",
+			"company": "wasmer.io",
+			"company_url": "http://wasmer.io",
+			"gravatar_hash": "963b6c7ce3816d23c654b4c39a39252f8dc23982ff654bd31dc02c3d1d65c472",
+			"added_at": "2026-08-11T20:20:15.762Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "da891ecca46b813484e9bb37ca734388da7623c8c6112e715f304061f2a66af3",
