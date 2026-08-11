@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-10T22:31:10.311Z",
-	"total": 691,
-	"rows": 702,
+	"updated_at": "2026-08-11T04:31:18.674Z",
+	"total": 692,
+	"rows": 703,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -4585,6 +4585,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "8c1f4ef495bf8ef4a4f3c9a49ef5040c299cf8ffb3aa11377c494aacf4787c34",
+			"first": "Helen",
+			"last": "Hou-Sandí",
+			"job_title": "Staff Software Engineering Manager",
+			"company": "GitHub",
+			"company_url": "http://GitHub",
+			"gravatar_hash": "db7425bf11dc396d1da059de8776278e5f9a0fe39d1d0d59a6a583de957a1787",
+			"added_at": "2026-08-11T04:31:18.674Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "8d079ce5ad2c6c78a8dbcdd63ac99957c9aa7f11d3ad8355c0095a52aeae72cb",
