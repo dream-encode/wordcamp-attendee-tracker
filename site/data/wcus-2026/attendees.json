@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T18:01:10.984Z",
-	"total": 702,
-	"rows": 713,
+	"updated_at": "2026-08-11T19:31:15.052Z",
+	"total": 703,
+	"rows": 714,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -5472,6 +5472,18 @@
 			"company_url": "https://stonedigital.com.au/",
 			"gravatar_hash": "c418b6dec5fbabeb33aa4daa4ae55e1c997a83628607d0279686f18a0624de9a",
 			"added_at": "2026-08-10T01:32:08.976Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "a4f6e4765c6186c3fa7b11de37ae5eb766dd1f2f636c1270415e99bbc25d02e0",
+			"first": "Aaron",
+			"last": "Jorbin",
+			"job_title": "Core Committer",
+			"company": "aaron.jorb.in",
+			"company_url": "https://aaron.jorb.in",
+			"gravatar_hash": "323cf209e19dd825678e9ccc51bc3f745f96571f1c68af26ae7955c1fa9ad1f2",
+			"added_at": "2026-08-11T19:31:15.052Z",
 			"departed_at": null,
 			"baseline": false
 		},
