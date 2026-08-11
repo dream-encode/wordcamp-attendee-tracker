@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T07:01:09.189Z",
-	"total": 694,
-	"rows": 705,
+	"updated_at": "2026-08-11T13:01:09.785Z",
+	"total": 695,
+	"rows": 706,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -8333,6 +8333,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "fda76d3710650d56ac94482eae053647c5a606e4dbb10f866d1aeda6e078eaa6",
+			"first": "Steve",
+			"last": "Garee",
+			"job_title": "CFO",
+			"company": "pair.com",
+			"company_url": "http://pair.com",
+			"gravatar_hash": "a7e2e16d91e4d07418c92ba5ac532a93356869b0711a7972ba9dee3de679eb62",
+			"added_at": "2026-08-11T13:01:09.785Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "fe1d413343759ba7a5da950797d7220c763fb7dbae895a86b55d6941d173f4c0",
