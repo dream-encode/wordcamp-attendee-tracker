@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T13:01:09.785Z",
-	"total": 695,
-	"rows": 706,
+	"updated_at": "2026-08-11T16:07:27.499Z",
+	"total": 700,
+	"rows": 711,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -238,6 +238,18 @@
 			"baseline": true
 		},
 		{
+			"key": "063b581c2db9f0504182be7d799d745a5ddcc935f077ff8b986a9cce45a30193",
+			"first": "Zac",
+			"last": "Flathers",
+			"job_title": "Wordpress Support Pro",
+			"company": "Showit.com",
+			"company_url": "http://Showit.com",
+			"gravatar_hash": "657cf4770d5a4dde95fdaf5d28eb81e829abc11d287ca2b0ea27c3b54c53304f",
+			"added_at": "2026-08-11T16:07:27.499Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "067d47aa19f7f7c0a53b949d0c79d8ee54205e3ace1629b64e396bfb6c20783b",
 			"first": "Sanjana",
 			"last": "Ella",
@@ -417,6 +429,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "09edbcdd884b729dd0dea88c8b0b74a98c9fa243bac5d41548d4616bed8cef88",
+			"first": "Julie",
+			"last": "Sweeney",
+			"job_title": "Social media manager",
+			"company": "mrschickenaz.com",
+			"company_url": "http://mrschickenaz.com",
+			"gravatar_hash": "09c7f9b207d15a45156ad057904003983c22281c3bb9b6f96a7a7cae38d34b3c",
+			"added_at": "2026-08-11T16:07:27.499Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "0af2d2331fcfe7d61424b4bdba27d156e818cca166128cd861756efa5c45576a",
@@ -2698,6 +2722,18 @@
 			"company_url": "http://paypal.com",
 			"gravatar_hash": "09c1bff666e0f5ad03e7e83699f962184bf4451a46473a346e77d8174b178175",
 			"added_at": "2026-08-10T19:01:11.102Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "54d15fcf53a0649900814103bc99447f2baceb681b175dd10f3e66726dca1150",
+			"first": "Ahmed",
+			"last": "Ghorab",
+			"job_title": "Wordpress Support Pro",
+			"company": "Showit.com",
+			"company_url": "http://Showit.com",
+			"gravatar_hash": "fe8999b398fdaae60905d6776079b5fe99861c5aa629046ae159edf98303ff13",
+			"added_at": "2026-08-11T16:07:27.499Z",
 			"departed_at": null,
 			"baseline": false
 		},
@@ -6436,6 +6472,18 @@
 			"baseline": true
 		},
 		{
+			"key": "c375d3ad1e1319a657afe0bb123c592556b85072d21d9f1c94381acea6c6fa67",
+			"first": "Brendan",
+			"last": "Brunelle",
+			"job_title": "Wordpress Support Pro",
+			"company": "Showit.com",
+			"company_url": "http://Showit.com",
+			"gravatar_hash": "c700649b99a16a9a790a7c2c2ef69c4d99b1fc2590ffdf55a597f8526c310823",
+			"added_at": "2026-08-11T16:07:27.499Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "c382a210cdd926e64c0a28c1bed80766aea5202ca30a8f2aca09e68dea2a4181",
 			"first": "Md. Sakibul Hasan",
 			"last": "Rohan",
@@ -7120,6 +7168,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "d9663bd756e2ada8fcd1622ec658a293a77e4900f7dc498f06b040122f2be667",
+			"first": "Mikey",
+			"last": "Arce",
+			"job_title": "Software Engineer",
+			"company": "principalwp.com",
+			"company_url": "https://principalwp.com/",
+			"gravatar_hash": "c874a094de3814e0b4b87674503fa440d6e9cfa95ab1ce03a6a4021f950a0d03",
+			"added_at": "2026-08-11T16:07:27.499Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "d974ed151bd70f62d1e92a4e9528c99b71ae7b88a2988933b8f4d6a847a97c2f",
