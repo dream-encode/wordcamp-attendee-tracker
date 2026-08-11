@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T05:01:14.997Z",
-	"total": 693,
-	"rows": 704,
+	"updated_at": "2026-08-11T07:01:09.189Z",
+	"total": 694,
+	"rows": 705,
 	"attendees": [
 		{
 			"key": "007dd1754fd5ea6bca2657f6397f153f63b691e59b631334ad693ed954ef03c5",
@@ -2890,6 +2890,18 @@
 			"company_url": "https://www.greengeeks.com",
 			"gravatar_hash": "76302d8ad8ccfeac207c2058494937cd7835744a0e89acfebbb789cf4f4ccd08",
 			"added_at": "2026-08-07T19:01:18.398Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "5ae9c1d6262dc62d9f3bda01a17c78caf335da36bf52ad81b3ead53453591c23",
+			"first": "Kinjal",
+			"last": "Dalwadi",
+			"job_title": "WordPress Developer",
+			"company": "kinjaldalwadi.com",
+			"company_url": "http://www.kinjaldalwadi.com/",
+			"gravatar_hash": "eb18a1a37a93fb66baa09a29b41652e197672df83a9d4e1cfaeef544c2b31d0c",
+			"added_at": "2026-08-11T07:01:09.189Z",
 			"departed_at": null,
 			"baseline": false
 		},
