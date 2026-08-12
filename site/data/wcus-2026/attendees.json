@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T04:56:09.863Z",
-	"total": 712,
-	"rows": 723,
+	"updated_at": "2026-08-12T06:01:11.840Z",
+	"total": 713,
+	"rows": 724,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2376,6 +2376,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "48fc1e0405b8ac8622a111e72ea1013e5b3d4378034b8177f6fa3b8deecb242a",
+			"first": "Evelynn",
+			"last": "Hummon",
+			"job_title": "Founder",
+			"company": "evehummon.com",
+			"company_url": "https://evehummon.com",
+			"gravatar_hash": "d407909751dba365f343da39c5c9e8afaf7667aefac09f008943353b506d3fc5",
+			"added_at": "2026-08-12T06:01:11.840Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "4974a898de0f5b61895c41b663f1da6a189e5c9e9123e2695f8a6e3dd229aa19",
