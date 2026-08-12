@@ -4,7 +4,7 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T01:01:09.590Z",
+	"updated_at": "2026-08-12T02:31:10.692Z",
 	"total": 711,
 	"rows": 722,
 	"attendees": [
@@ -158,7 +158,7 @@
 			"last": "Miller",
 			"job_title": "Director of Marketing",
 			"company": "EnrichLoans.com",
-			"company_url": "http://EnrichLoans.com",
+			"company_url": "https://EnrichLoans.com",
 			"gravatar_hash": "9711d17d0f6d2884298a555de5b383b4c369b66993559830ae0c7da7749166fe",
 			"added_at": "2026-08-12T01:01:09.590Z",
 			"departed_at": null,
