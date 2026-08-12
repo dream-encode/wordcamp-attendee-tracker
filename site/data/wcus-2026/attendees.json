@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T02:31:10.692Z",
-	"total": 711,
-	"rows": 722,
+	"updated_at": "2026-08-12T04:56:09.863Z",
+	"total": 712,
+	"rows": 723,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -4609,6 +4609,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "8747b314c2a3fea0e2431d74498bd102f89f24f368b01ebcc188ff9aea1a1495",
+			"first": "Peter",
+			"last": "Robinson",
+			"job_title": "Project Manager",
+			"company": "betterwebmanagement.com",
+			"company_url": "https://betterwebmanagement.com",
+			"gravatar_hash": "73fdd4bceeeb009b3b70e0bf0af737dff78a3ffd25c5698f4cb78c835cb12e4b",
+			"added_at": "2026-08-12T04:56:09.863Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "875f79fc752f452fbf087bb422558f18e21ef8c56d8aaff27381227167d556f6",
