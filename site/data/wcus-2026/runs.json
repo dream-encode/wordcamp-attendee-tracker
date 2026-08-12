@@ -406,6 +406,13 @@
 			"rows": 728,
 			"arrived": 2,
 			"departed": 0
+		},
+		{
+			"at": "2026-08-12T18:01:15.129Z",
+			"total": 721,
+			"rows": 732,
+			"arrived": 4,
+			"departed": 0
 		}
 	]
 }

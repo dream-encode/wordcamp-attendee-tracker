@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T15:31:16.556Z",
-	"total": 717,
-	"rows": 728,
+	"updated_at": "2026-08-12T18:01:15.129Z",
+	"total": 721,
+	"rows": 732,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -792,6 +792,18 @@
 			"baseline": true
 		},
 		{
+			"key": "1865e952456e1279302d5cc8e657fd258bced6bf8e4f563ef8870570ba56bdbe",
+			"first": "Joseph",
+			"last": "Riviello",
+			"job_title": "CEO",
+			"company": "zen.agency",
+			"company_url": "http://zen.agency",
+			"gravatar_hash": "0f073ca7409cc63b6c7c9921a4e5ef717e17bd3caa87549fd6213d1439a3b798",
+			"added_at": "2026-08-12T18:01:15.129Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "18a1b506433d3d78f362dd709b092c4b7c25fff813903f1a8bf45de8a540747e",
 			"first": "Dennis",
 			"last": "Diligent",
@@ -1186,6 +1198,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "25dab78c678b74e0f45202d06098455c5c2daeae69087ae890471781085fed05",
+			"first": "Giselle",
+			"last": "Aguiar",
+			"job_title": "Digital Marketing Consultant",
+			"company": "AZSocialMediaWiz.com",
+			"company_url": "https://AZSocialMediaWiz.com",
+			"gravatar_hash": "60804be24bf5c24719b53a2e20368ad4724e442f968e1cc782b5569817dbccd5",
+			"added_at": "2026-08-12T18:01:15.129Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "25e2404cd2863138212153a196465ca0274ab94b982a80a85a91973ec1d9d1fb",
@@ -5788,6 +5812,18 @@
 			"baseline": true
 		},
 		{
+			"key": "a8a68932161d9db89d58a94c8f8791b48faf803363845a6c6270614fe50cc906",
+			"first": "Noah",
+			"last": "Zippittelli",
+			"job_title": "Director of Ops",
+			"company": "homeprodigital.com",
+			"company_url": "http://homeprodigital.com",
+			"gravatar_hash": "b26b7d2c6c53b45b53034e65a319d0b2f1d214930dd562e00364c869390d5c33",
+			"added_at": "2026-08-12T18:01:15.129Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "a9cab59a3f4e1faf3c61e17c1a0d706ecaa8b5c867a81ed3daf9b86ba73fc57e",
 			"first": "David",
 			"last": "Schargel",
@@ -8117,6 +8153,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "f06383c8648f2e00a111e2a26196a72aae6d81d05eb01dd9749cbd20ffecc42a",
+			"first": "Kailey",
+			"last": "Lampert",
+			"job_title": "Staff Enginner",
+			"company": "xwp.co",
+			"company_url": "https://xwp.co/",
+			"gravatar_hash": "26709ef9658cb50dd6ed5b8f0d61796c071d63a05f13ee40ab3211f62c8620f6",
+			"added_at": "2026-08-12T18:01:15.129Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "f07a5dc97463b2297de1b09ddcc1e83cf8f3c6600aaf98ced348a7046bf55b58",
