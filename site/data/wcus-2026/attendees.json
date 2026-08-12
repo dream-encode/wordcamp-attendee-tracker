@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-11T22:01:15.048Z",
-	"total": 707,
-	"rows": 718,
+	"updated_at": "2026-08-12T00:01:12.509Z",
+	"total": 710,
+	"rows": 721,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1234,6 +1234,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "28e5e125ea24f37898af3f68a4260c3e0b6af2c0466229015a66857bd395afb8",
+			"first": "Joey",
+			"last": "Paskhay",
+			"job_title": "Principal Engineer",
+			"company": "GoDaddy.com",
+			"company_url": "http://GoDaddy.com",
+			"gravatar_hash": "41460b6ad11311c00a77bcfb06c54c5c0946c5543f1dd171f672475eaee9b3ea",
+			"added_at": "2026-08-12T00:01:12.509Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "2b884398490cd88c1efed34e877ce810b0efb7d68642f61f068a94472b735236",
@@ -5704,6 +5716,18 @@
 			"baseline": true
 		},
 		{
+			"key": "aa35a0f30a1937e9d4b3244b3577bb1ffb2a4fecc81a8928d9ec88926923c554",
+			"first": "Jeff",
+			"last": "Uberstine",
+			"job_title": "Director – SRE",
+			"company": "GoDaddy.com",
+			"company_url": "http://GoDaddy.com",
+			"gravatar_hash": "030322eae60393e1167cf6e0d338898e05bf6ac6ff61e2ef5c3bba8372d6ac59",
+			"added_at": "2026-08-12T00:01:12.509Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "aafe55f00885adc562a76ce02046e2e828ed8879b4166d317833c88cfde1203e",
 			"first": "Aaron",
 			"last": "Larson",
@@ -7516,6 +7540,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "e09a77127311e203e30ebb9ea58c0f3076872a79ab514b2c26af6c1cedb36c81",
+			"first": "EJ",
+			"last": "Karcher",
+			"job_title": "Director – UX",
+			"company": "GoDaddy",
+			"company_url": "http://GoDaddy",
+			"gravatar_hash": "8087b510073f39e00796e20689bb67e274b00e120a6d1e602b863c2a226cff85",
+			"added_at": "2026-08-12T00:01:12.509Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "e10c0e06a971acfc4ef872f6ad22eb70691b89511d909e4d097e9ec5fd6ee42c",
