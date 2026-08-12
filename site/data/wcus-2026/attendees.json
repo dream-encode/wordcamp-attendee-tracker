@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T18:01:15.129Z",
-	"total": 721,
-	"rows": 732,
+	"updated_at": "2026-08-12T18:31:14.234Z",
+	"total": 722,
+	"rows": 733,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7062,6 +7062,18 @@
 			"baseline": true
 		},
 		{
+			"key": "d088d134ee83421f28e08e65105f10ac9665f414b8b8023e28dbbca1124652d6",
+			"first": "Sharlene",
+			"last": "Dubraj",
+			"job_title": "VP Sales and Customer Success",
+			"company": "Tucows.com. / opensrs.com",
+			"company_url": "http://www.Tucows.com.%20/%20opensrs.com",
+			"gravatar_hash": "db3998b9b59f7a5378e2412b6aa4827c0696bb9dab2216c647392867d155facc",
+			"added_at": "2026-08-12T18:31:14.234Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "d094aa5a3a9c5d17b7d75c7d0f81881d3681670ac0401f7085561c086b0c77f3",
 			"first": "Nikhil",
 			"last": "Harsh",
@@ -8158,7 +8170,7 @@
 			"key": "f06383c8648f2e00a111e2a26196a72aae6d81d05eb01dd9749cbd20ffecc42a",
 			"first": "Kailey",
 			"last": "Lampert",
-			"job_title": "Staff Enginner",
+			"job_title": "Staff Engineer",
 			"company": "xwp.co",
 			"company_url": "https://xwp.co/",
 			"gravatar_hash": "26709ef9658cb50dd6ed5b8f0d61796c071d63a05f13ee40ab3211f62c8620f6",
