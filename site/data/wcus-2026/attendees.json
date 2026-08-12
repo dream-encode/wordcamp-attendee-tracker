@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T15:01:15.497Z",
-	"total": 715,
-	"rows": 726,
+	"updated_at": "2026-08-12T15:31:16.556Z",
+	"total": 717,
+	"rows": 728,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1272,6 +1272,18 @@
 			"baseline": false
 		},
 		{
+			"key": "29d90b7c4f65b76c3d250704eeaf931d32608cddfd268e451d17463254d21cef",
+			"first": "Rob",
+			"last": "Clar",
+			"job_title": "Media Production Manager",
+			"company": "ciphersdigital.com",
+			"company_url": "https://www.ciphersdigital.com/",
+			"gravatar_hash": "3505b1d89e12ec849f911a4f95ef6b66c19b68118727f700f5e9fa725df1602b",
+			"added_at": "2026-08-12T15:31:16.556Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "2b884398490cd88c1efed34e877ce810b0efb7d68642f61f068a94472b735236",
 			"first": "Mackenzie",
 			"last": "Hartung",
@@ -1666,6 +1678,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "35e50d020a238303d82a789d364aad66a1636629b7d150ec1b060add6bb401d4",
+			"first": "Tyrese",
+			"last": "Johnson-Fisher",
+			"job_title": "Partner Development Representative",
+			"company": "Automattic",
+			"company_url": "http://Automattic",
+			"gravatar_hash": "81db077e55de376be2b6c133c4c1f1706a7f492cb984035e52c24be717ada61a",
+			"added_at": "2026-08-12T15:31:16.556Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "35e6f9ca2a63f2ec8368ec372f544e6d563204f70e54ee2093b3243b2ceb1b1e",
