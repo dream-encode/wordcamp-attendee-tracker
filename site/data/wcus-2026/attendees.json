@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T12:01:12.541Z",
-	"total": 714,
-	"rows": 725,
+	"updated_at": "2026-08-12T15:01:15.497Z",
+	"total": 715,
+	"rows": 726,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1222,6 +1222,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "27b93d944528eb9e56768549dfa80c9bab6acb1cfd06aa86b72a5cc98bf44648",
+			"first": "Cecil",
+			"last": "Andrews",
+			"job_title": "Reseller Onboarding Specialist",
+			"company": "opensrs.com",
+			"company_url": "http://opensrs.com",
+			"gravatar_hash": "64d721585ff64d8a46cb6530b991c5465520f0314b54b07990548d7e4cff3aba",
+			"added_at": "2026-08-12T15:01:15.497Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "2870ca1d2afc887d0c9a546f83c805aa8dc85f4201e951394e570fddca764f07",
