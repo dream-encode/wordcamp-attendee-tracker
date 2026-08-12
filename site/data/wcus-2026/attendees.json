@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T06:01:11.840Z",
-	"total": 713,
-	"rows": 724,
+	"updated_at": "2026-08-12T12:01:12.541Z",
+	"total": 714,
+	"rows": 725,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -3504,6 +3504,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "6894abc5ab1b177c81f693e97e0d9ee150a3f4e288d7635f8db5f8b3bbb0d8a4",
+			"first": "Disa",
+			"last": "McAlister",
+			"job_title": "CEO",
+			"company": "WomenCeo.com",
+			"company_url": "http://WomenCeo.com",
+			"gravatar_hash": "bfad044b06db94706fd80d85eb98bc3b0a0d461a70aa57242b7678624e72f296",
+			"added_at": "2026-08-12T12:01:12.541Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "68b92a04a18f4d4a3ec7a71691e4fe6747ae6044802043d8d3f6e18f85d405cb",
