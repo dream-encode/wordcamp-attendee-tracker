@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T01:00:36.476Z",
-	"total": 724,
-	"rows": 735,
+	"updated_at": "2026-08-13T02:00:32.387Z",
+	"total": 726,
+	"rows": 737,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1114,6 +1114,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "217c813f4eccffa096f5bda63cf889c53b5b0bd9701b5d1e64d075f9d0793023",
+			"first": "Marv",
+			"last": "Dorner",
+			"job_title": "Owner/Developer/SEO",
+			"company": "bebizzy.com",
+			"company_url": "http://bebizzy.com",
+			"gravatar_hash": "ce9557cd7db452f65ad56f71308c64da5ee04e45b8aa02072e5c725c6d290381",
+			"added_at": "2026-08-13T02:00:32.387Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "2240d396d138fefa9dcc5e61f1d46d5d8b752abfa2b63b72dd767692ddda6281",
@@ -2460,6 +2472,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "498f60b68add813ae1d3b726391506ad59ce4fe2f55fa9808dfc5c40e1687945",
+			"first": "Angela",
+			"last": "Street",
+			"job_title": "Chief Customer Success Officer",
+			"company": "linkedin.com/in/angela-street-pmp-47751b2",
+			"company_url": "https://www.linkedin.com/in/angela-street-pmp-47751b2/",
+			"gravatar_hash": "b40a41fbe45cf4e42d611b9c43ad489421b345943519e19cb942c3f804c2eba2",
+			"added_at": "2026-08-13T02:00:32.387Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "49afba6e7a0f281d19bdb07c0eba1a463262945708b98ed75759e647518dc088",
