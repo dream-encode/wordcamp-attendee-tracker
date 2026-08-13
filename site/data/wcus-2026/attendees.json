@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T02:00:32.387Z",
-	"total": 726,
-	"rows": 737,
+	"updated_at": "2026-08-13T02:30:28.336Z",
+	"total": 727,
+	"rows": 738,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1316,6 +1316,18 @@
 			"company_url": "https://www.ciphersdigital.com/",
 			"gravatar_hash": "3505b1d89e12ec849f911a4f95ef6b66c19b68118727f700f5e9fa725df1602b",
 			"added_at": "2026-08-12T15:31:16.556Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "2b453c9e304b03de568d55941a4de7fa3f88b7f3e1f1124e46b87ef9b7ebebdf",
+			"first": "Jaron",
+			"last": "Quach",
+			"job_title": "Photographer",
+			"company": "wilcoproductions.com",
+			"company_url": "https://wilcoproductions.com/",
+			"gravatar_hash": "50b9d96db0092f22210340662e04faeec8b7a7ed14a2046393bfbe3a7ba878ce",
+			"added_at": "2026-08-13T02:30:28.336Z",
 			"departed_at": null,
 			"baseline": false
 		},
