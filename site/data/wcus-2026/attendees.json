@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T18:00:32.939Z",
-	"total": 732,
-	"rows": 743,
+	"updated_at": "2026-08-13T20:55:54.973Z",
+	"total": 734,
+	"rows": 745,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -5524,6 +5524,18 @@
 			"baseline": true
 		},
 		{
+			"key": "9d0804a66f901eb104cadaf2b3535d5c902757829c9af79ec507726a271aed40",
+			"first": "Tyrone",
+			"last": "Jones",
+			"job_title": "NTU Webmaster",
+			"company": "navajotech.edu",
+			"company_url": "http://www.navajotech.edu",
+			"gravatar_hash": "2fb14c9a6164f05ac6245fe4397b03979809b05c7d40e3b3a281a097e7d621dc",
+			"added_at": "2026-08-13T20:55:54.973Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "9e022ee8cda0a210f91934cc3fff23068f54313009751453fdbbbd4c0a09dca1",
 			"first": "Cheyne",
 			"last": "Klein",
@@ -8273,6 +8285,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "efc8bc513f3f39e5797d7ccfb98fb01746a03f4f82a3a5055ef1a98440518bbf",
+			"first": "Clinton",
+			"last": "Desiderio",
+			"job_title": "Director of Marketing and Communications",
+			"company": "navajotech.edu",
+			"company_url": "http://www.navajotech.edu",
+			"gravatar_hash": "ceb3a0dc0af8292e63ced3f4947e12f6033a392c79cbcf09cf562ff283964fb4",
+			"added_at": "2026-08-13T20:55:54.973Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "efd93dc815b51c7f63f5b1124e027c8d157dd7129bef4e7cac8186f56d8503b8",
