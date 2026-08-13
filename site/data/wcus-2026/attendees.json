@@ -4,7 +4,7 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T05:30:34.124Z",
+	"updated_at": "2026-08-13T06:00:32.509Z",
 	"total": 730,
 	"rows": 741,
 	"attendees": [
@@ -1299,7 +1299,7 @@
 			"key": "28e5e125ea24f37898af3f68a4260c3e0b6af2c0466229015a66857bd395afb8",
 			"first": "Joey",
 			"last": "Paskhay",
-			"job_title": "Principal Engineer",
+			"job_title": "Principal Software Engineer",
 			"company": "GoDaddy.com",
 			"company_url": "http://GoDaddy.com",
 			"gravatar_hash": "41460b6ad11311c00a77bcfb06c54c5c0946c5543f1dd171f672475eaee9b3ea",
