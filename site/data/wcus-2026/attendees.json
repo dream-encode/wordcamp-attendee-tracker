@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-12T18:31:14.234Z",
-	"total": 722,
-	"rows": 733,
+	"updated_at": "2026-08-13T01:00:36.476Z",
+	"total": 724,
+	"rows": 735,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -6112,6 +6112,18 @@
 			"baseline": true
 		},
 		{
+			"key": "b529faaa179a9898908c8cac0449cb64192432e12ce5481c9c00d6436c49b3c8",
+			"first": "Daniel",
+			"last": "Paz",
+			"job_title": "WordPress Engineering Lead",
+			"company": "weboption.com.br",
+			"company_url": "https://weboption.com.br",
+			"gravatar_hash": "be1aa705d2a4ecc0028646c119241b15c8a560809582d416bfdf388ebcd2768f",
+			"added_at": "2026-08-13T01:00:36.476Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "b68acbe5c953f11ca2eb15a856ff5569cc04a0852d7f464717a84d54873da480",
 			"first": "Todd",
 			"last": "Tamcsin",
@@ -6470,6 +6482,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "bebe131989bc3a3f70772518f22ca54903e578f25f75c221acc972bd68513091",
+			"first": "Joe",
+			"last": "Kelly",
+			"job_title": "CTO",
+			"company": "azds.com",
+			"company_url": "https://azds.com",
+			"gravatar_hash": "6a9075299587c7a3440d35e252d446f7f9fe57b1d4214d718bb4e5f814cbb192",
+			"added_at": "2026-08-13T01:00:36.476Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "bec90d4949605b2d6db0c465472295e06cf3aff24dda792da50b7a6f865b0165",
