@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T14:00:32.637Z",
-	"total": 732,
-	"rows": 743,
+	"updated_at": "2026-08-13T17:00:35.865Z",
+	"total": 733,
+	"rows": 744,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -8032,6 +8032,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "e7626bd147b411b359328f484aa7ddef0bb16b686b9d63a9c9d4dd349e7ccce9",
+			"first": "Kim",
+			"last": "Reddington",
+			"job_title": "Software Engineer",
+			"company": "self",
+			"company_url": "http://self",
+			"gravatar_hash": "e024aacfc03f443a45d4ad81cdd3b1a2a5bc0e8f3231a9106da962f4446f4994",
+			"added_at": "2026-08-13T17:00:35.865Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "e7f5910a1a202799db623d7d40e51943913b98745f98c326aa477b9847999802",
