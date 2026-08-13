@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T06:00:32.509Z",
-	"total": 730,
-	"rows": 741,
+	"updated_at": "2026-08-13T09:42:10.641Z",
+	"total": 731,
+	"rows": 742,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2592,6 +2592,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "4bc601e10d64d2209d66954cc5fb0bd6ed067f64e5147a5689335feaec5d2b17",
+			"first": "Aaron",
+			"last": "Hadley",
+			"job_title": "Customer Success Advisor",
+			"company": "Hosting.com",
+			"company_url": "http://Hosting.com",
+			"gravatar_hash": "a53e7c78c57e3ee3e3e16a7cd901894c10680e49dae5490764d8d33b3bc6e8c2",
+			"added_at": "2026-08-13T09:42:10.641Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "4c2a9b3e7b168e42c0817e049e0a0e07c8b491e8a585d7c02dd4ee3c3052e270",
