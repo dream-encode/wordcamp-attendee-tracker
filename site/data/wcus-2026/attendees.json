@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T17:00:35.865Z",
-	"total": 733,
-	"rows": 744,
+	"updated_at": "2026-08-13T18:00:32.939Z",
+	"total": 732,
+	"rows": 743,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2084,7 +2084,7 @@
 			"company_url": "https://satyamvishwakarma.com",
 			"gravatar_hash": "1e91e5c3c6c9184e819762831cf0b5bd4129588245a87a1ce7a2b0b1df6a0301",
 			"added_at": "2026-08-04T18:40:39.884Z",
-			"departed_at": null,
+			"departed_at": "2026-08-13T18:00:32.939Z",
 			"baseline": true
 		},
 		{
