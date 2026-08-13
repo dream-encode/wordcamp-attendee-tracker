@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T20:55:54.973Z",
-	"total": 734,
-	"rows": 745,
+	"updated_at": "2026-08-13T21:53:57.140Z",
+	"total": 735,
+	"rows": 746,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2304,6 +2304,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "452913899a947937a37d135d493566de5c4dd9ea82e5e9052e6824ecf79b10e3",
+			"first": "Chris",
+			"last": "Eggleston",
+			"job_title": "Support Engineer",
+			"company": "gravity.com",
+			"company_url": "https://gravity.com",
+			"gravatar_hash": "f0d9744fc78266d57a2643a7c17898ba9ee01610fc19d556dff40c5a1980fff2",
+			"added_at": "2026-08-13T21:53:57.140Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "4535228ea1acbb2bb904f325f9caf492ee2e0e356573aef8eb7ee1045c36f2b8",
@@ -5532,7 +5544,7 @@
 			"company_url": "http://www.navajotech.edu",
 			"gravatar_hash": "2fb14c9a6164f05ac6245fe4397b03979809b05c7d40e3b3a281a097e7d621dc",
 			"added_at": "2026-08-13T20:55:54.973Z",
-			"departed_at": null,
+			"departed_at": "2026-08-13T21:53:57.140Z",
 			"baseline": false
 		},
 		{
@@ -7816,6 +7828,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "e1692ea2b1e1825d496347b3b657bd4a6329f5a823e253500fe1bd30842cc23c",
+			"first": "Ty",
+			"last": "Jones",
+			"job_title": "NTU Webmaster",
+			"company": "navajotech.edu",
+			"company_url": "http://www.navajotech.edu",
+			"gravatar_hash": "2fb14c9a6164f05ac6245fe4397b03979809b05c7d40e3b3a281a097e7d621dc",
+			"added_at": "2026-08-13T21:53:57.140Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "e179133cbc78d369e70c7e654b4f21e57b99897c77b03556c1d6e5ff346ff65b",
