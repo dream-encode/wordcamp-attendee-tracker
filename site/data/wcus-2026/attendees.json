@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T09:42:10.641Z",
-	"total": 731,
-	"rows": 742,
+	"updated_at": "2026-08-13T14:00:32.637Z",
+	"total": 732,
+	"rows": 743,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -4465,6 +4465,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "7d5f3ecf5bf07ec3e59e0c6250336e45494406b0d6f9cc3f66c72d35a5484d6a",
+			"first": "Jesse",
+			"last": "Asklund",
+			"job_title": "Chief Product Officer",
+			"company": "WebPros",
+			"company_url": "http://WebPros",
+			"gravatar_hash": "6fd2a450bfc4d1442272e395d7ec8dfd9f9747ffdff2763e54d9be1e89120504",
+			"added_at": "2026-08-13T14:00:32.637Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "7e9f90c4ab9bde6667c6da88c24d339d2cc9795a4c4fe0f34e657909e4145a2d",
