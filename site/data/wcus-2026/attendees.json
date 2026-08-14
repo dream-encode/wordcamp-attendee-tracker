@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-13T21:53:57.140Z",
-	"total": 735,
-	"rows": 746,
+	"updated_at": "2026-08-14T04:00:31.037Z",
+	"total": 736,
+	"rows": 748,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -6529,7 +6529,8 @@
 			"gravatar_hash": "dd936e6abf44da3367a8b2a329c046ee400cdb65def85dacfc7a1daac61a5b78",
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
-			"baseline": true
+			"baseline": true,
+			"ticket_rows": 2
 		},
 		{
 			"key": "bdcf024339138541278103e16c2633f2c39b15d5a2941b39c2ba8c85b335ba4c",
@@ -8213,6 +8214,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "ee9d0d5b008d4f579bd2b9a54c1245a4d896ad8c29e490a0d43f22cf8a6e82a3",
+			"first": "Vasken",
+			"last": "Hauri",
+			"job_title": "Farmer",
+			"company": "countrynerd.farm",
+			"company_url": "https://countrynerd.farm",
+			"gravatar_hash": "338c8604ecae04df0b8f2b92314f1226f28f6f98a836e3b353e97827556181a7",
+			"added_at": "2026-08-14T04:00:31.037Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "eea804170055993725f498079603645b5b53258e111a87854b2bcf83f65d979a",
