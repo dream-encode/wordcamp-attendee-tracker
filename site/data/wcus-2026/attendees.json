@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T19:00:35.280Z",
-	"total": 744,
-	"rows": 756,
+	"updated_at": "2026-08-14T21:30:30.613Z",
+	"total": 745,
+	"rows": 757,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7818,6 +7818,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "df1f51a819433d7b53ef746fbaae5c9f84dd66fce30bbd484370477591c05d50",
+			"first": "Joel",
+			"last": "Rodriguez",
+			"job_title": "Director of IT",
+			"company": "ArmoredRepublic.com",
+			"company_url": "http://ArmoredRepublic.com",
+			"gravatar_hash": "c6b87779364dd8ffbe86f0ef6ca6726984090b25004d6f13e3aad59d3ca8269f",
+			"added_at": "2026-08-14T21:30:30.613Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "df2d613d9ea94314eb5553e2005083c0d67239c11840e63a63ff5ecb7887f76f",
