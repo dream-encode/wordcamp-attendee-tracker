@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T14:58:05.726Z",
-	"total": 740,
-	"rows": 753,
+	"updated_at": "2026-08-14T15:57:47.224Z",
+	"total": 741,
+	"rows": 754,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -3048,6 +3048,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "56c9a9283eefbc0bde9d2475616d6c2a14b29025b403e70035e7b53f3c3d9eac",
+			"first": "Faran",
+			"last": "Thomason",
+			"job_title": "Founder",
+			"company": "Love8bit.com",
+			"company_url": "http://Love8bit.com",
+			"gravatar_hash": "094d0d5cab8f514270e50823b2c494314212b3fc362b3f1df981cc3a7f13b17d",
+			"added_at": "2026-08-14T15:57:47.224Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "571169227ef8a08bcd74fd486dc04c9eb9e0a5b30283226bb42fb52744441209",
