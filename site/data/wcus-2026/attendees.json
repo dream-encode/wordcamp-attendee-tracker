@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T17:30:36.164Z",
-	"total": 742,
-	"rows": 755,
+	"updated_at": "2026-08-14T17:55:57.415Z",
+	"total": 744,
+	"rows": 757,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -585,6 +585,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "0fadc9340dbcf394b69a7eac044f7cde73882628c769ffcf802a8771af35b4a7",
+			"first": "Steven",
+			"last": "Mizrahie",
+			"job_title": "CEO",
+			"company": "hostingone.com",
+			"company_url": "https://hostingone.com",
+			"gravatar_hash": "18381b1b75f1bc4dce67864f27a4ff0a84eb83f47f77889a23247dde8f8fb5f3",
+			"added_at": "2026-08-14T17:55:57.415Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "104c6682dc06d3f7044b54dffd1406c10a5941788d4ccd1e08b663ff864604c7",
@@ -3588,6 +3600,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "65fd929a1410ba513eb273c0302362eda783bad070de643d49d6138616a381b2",
+			"first": "Minh Thien Long",
+			"last": "Vo",
+			"job_title": "Student",
+			"company": "asu.edu",
+			"company_url": "https://www.asu.edu/",
+			"gravatar_hash": "f373bb9634285536244be210ea019f6ef25fb1973fc8fc58cbf3cca5d710c747",
+			"added_at": "2026-08-14T17:55:57.415Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "6603c16930ab980a0229b610c128fb7fc08c8462b4c8acd9055cc4342c45800a",
