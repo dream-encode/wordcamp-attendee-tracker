@@ -4,7 +4,7 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T17:55:57.415Z",
+	"updated_at": "2026-08-14T18:30:29.860Z",
 	"total": 744,
 	"rows": 757,
 	"attendees": [
@@ -3569,13 +3569,14 @@
 			"key": "63834eb82d732b38667f1bf779a0bd8f6eb74665d5b724bdf45a62f8f01683fd",
 			"first": "Shani",
 			"last": "Banerjee",
-			"job_title": "WooCommerce Developer Advocate",
+			"job_title": "Woo Developer Advocate",
 			"company": "developer.woocommerce.com",
 			"company_url": "http://developer.woocommerce.com",
 			"gravatar_hash": "5f89e7ee6b173e9ecd7958bfd688d79cf1108c1a2b7e8d4a50d5b9d2f2432a44",
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
-			"baseline": true
+			"baseline": true,
+			"ticket_rows": 2
 		},
 		{
 			"key": "644eb314592a92a0cfa9234d8eba961b168d8031f4e4dbbeb94fec9a582cf3cb",
@@ -8232,13 +8233,12 @@
 			"first": "Tammie",
 			"last": "Lister",
 			"job_title": "Chief Product Officer",
-			"company": "Convesio",
-			"company_url": "http://Convesio",
+			"company": "Convesio.com",
+			"company_url": "http://Convesio.com",
 			"gravatar_hash": "ae7284d19736cae806b9c1046c41d31352cb3b84bb79beef960e9e1459f625a0",
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
-			"baseline": true,
-			"ticket_rows": 2
+			"baseline": true
 		},
 		{
 			"key": "eb1e8091f5028b705c4f8b22ba8593592b543dd075e254abf1f4494675b4044c",
