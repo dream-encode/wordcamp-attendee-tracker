@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T21:30:30.613Z",
-	"total": 745,
-	"rows": 757,
+	"updated_at": "2026-08-14T21:51:46.692Z",
+	"total": 746,
+	"rows": 758,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -5955,6 +5955,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "a77eba55dd2aa9d03b925658cf4ff58a31193a995cadfa691b1dce6bfdb64611",
+			"first": "Carol",
+			"last": "Ingley",
+			"job_title": "President",
+			"company": "mediamogulenterprises.com",
+			"company_url": "http://www.mediamogulenterprises.com",
+			"gravatar_hash": "0f99e84a134dc2259e895c31e6c17645559418f7292fa97b2e34cc899b5a7251",
+			"added_at": "2026-08-14T21:51:46.692Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "a7ae8514becbe7d066726bedf9878807977098b1d84b83f829e90740296bfcec",
