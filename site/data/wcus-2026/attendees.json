@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T15:57:47.224Z",
-	"total": 741,
-	"rows": 754,
+	"updated_at": "2026-08-14T17:30:36.164Z",
+	"total": 742,
+	"rows": 755,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -5619,6 +5619,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "9e2c1dd3a1eb6624822c2855ee5c9a2dd0796da608d6b781a0e77239cc4fecc1",
+			"first": "Gary",
+			"last": "Nault",
+			"job_title": "Developer",
+			"company": "kidizona.com",
+			"company_url": "https://kidizona.com",
+			"gravatar_hash": "705b8ae8f76143dafbb55496561d04029d16905c9e563aee5141dcff2b0aef83",
+			"added_at": "2026-08-14T17:30:36.164Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "9eea7a01070554e13bf8bfee4877c902017999d7a38a23ea695a3120fdafde10",
