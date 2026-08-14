@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T04:00:31.037Z",
-	"total": 736,
-	"rows": 748,
+	"updated_at": "2026-08-14T05:00:29.954Z",
+	"total": 738,
+	"rows": 750,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -103,6 +103,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "0288fe597ff17200a47b700dac1522232eebcf438c34f7ecdd689e8fd34e5fd4",
+			"first": "Dennis",
+			"last": "Hickey",
+			"job_title": "Owner",
+			"company": "tutoringyou.org",
+			"company_url": "http://tutoringyou.org",
+			"gravatar_hash": "32b92a4436d6032628e1816720554e2541283ef7627efcf0a589135df7356532",
+			"added_at": "2026-08-14T05:00:29.954Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "02b767f45d0691c98ebf4777acdae33a7313b9ae1e3596491babb28869c67627",
@@ -3473,7 +3485,7 @@
 			"key": "62ce9e1c53f514c5b05388f6d94ffe42696c60bff91cf4ccd3a6b305c8254b41",
 			"first": "Luz",
 			"last": "Rimban",
-			"job_title": "Writer",
+			"job_title": "Journalist",
 			"company": "luzrimban.com",
 			"company_url": "http://www.luzrimban.com",
 			"gravatar_hash": "9fea56040e9991d6cf527c15a939f0ff7e815d22d770e9de33a59da35c96a2a6",
@@ -4487,6 +4499,18 @@
 			"company_url": "http://WebPros",
 			"gravatar_hash": "6fd2a450bfc4d1442272e395d7ec8dfd9f9747ffdff2763e54d9be1e89120504",
 			"added_at": "2026-08-13T14:00:32.637Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "7d8bcd8167657dbb29591a6684ce99457c961f5b8df2b548284a0ef2c5d5dbd3",
+			"first": "Ben",
+			"last": "Arellano",
+			"job_title": "Owner",
+			"company": "flyplugins.com",
+			"company_url": "https://flyplugins.com",
+			"gravatar_hash": "5dbe20dd27fe19ed46a501a141717a8f1c84fa725cd90daa7a4f079d3e96f3fd",
+			"added_at": "2026-08-14T05:00:29.954Z",
 			"departed_at": null,
 			"baseline": false
 		},
