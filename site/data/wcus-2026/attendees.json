@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T21:51:46.692Z",
-	"total": 746,
-	"rows": 758,
+	"updated_at": "2026-08-14T23:28:12.401Z",
+	"total": 747,
+	"rows": 759,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -6277,6 +6277,18 @@
 			"company_url": "http://compass-agency.com",
 			"gravatar_hash": "40a1191a1179acde86d20b7d994bafddcfaf27dc68173bd14a92b88a5d141f51",
 			"added_at": "2026-08-05T02:00:51.226Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "b3bd6b4b12edeed07c82a58c5e142724c50401e0b03ce33707c6762609916303",
+			"first": "Nick",
+			"last": "Hamze",
+			"job_title": "Chief Vibes Officer",
+			"company": "openstation.me",
+			"company_url": "https://openstation.me",
+			"gravatar_hash": "1d158d6cf0c580a3e2998152c73171b91b86eda41cb698d3a6dd1b14c381dd15",
+			"added_at": "2026-08-14T23:28:12.401Z",
 			"departed_at": null,
 			"baseline": false
 		},
