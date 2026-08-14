@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T05:00:29.954Z",
-	"total": 738,
-	"rows": 750,
+	"updated_at": "2026-08-14T05:59:16.638Z",
+	"total": 739,
+	"rows": 751,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -621,6 +621,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "132dbbd2aa1a14463c817c529e854721df04f648996d46e2131fb461dc0ef1fe",
+			"first": "Diana",
+			"last": "Vowels",
+			"job_title": "Chief Operating Officer",
+			"company": "petorthobraces.com",
+			"company_url": "https://www.petorthobraces.com/",
+			"gravatar_hash": "3ea4ebf6de975d579de25f2d35fa669121474243f5222c460057d44da6b320ae",
+			"added_at": "2026-08-14T05:59:16.638Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "135a24fa0842961f81c5ee460ad4cc6865e90e698b68ee0c38d62192173ee9d0",
