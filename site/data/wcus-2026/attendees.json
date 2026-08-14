@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-14T23:28:12.401Z",
-	"total": 747,
-	"rows": 759,
+	"updated_at": "2026-08-14T23:50:27.107Z",
+	"total": 748,
+	"rows": 760,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -474,6 +474,18 @@
 			"company_url": "http://mrschickenaz.com",
 			"gravatar_hash": "09c7f9b207d15a45156ad057904003983c22281c3bb9b6f96a7a7cae38d34b3c",
 			"added_at": "2026-08-11T16:07:27.499Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "09fa5cf8184ba6a3ae83c5899e5d6d0d877d2e5a9eb978f1493edf5f1b5c7d97",
+			"first": "Terry",
+			"last": "Carter",
+			"job_title": "Primary Consultant",
+			"company": "carterlogic.com",
+			"company_url": "https://carterlogic.com/",
+			"gravatar_hash": "7f5169881f85fe23737fe1417b9fbead26e5b7e6461ccd53ba4d066a4a167816",
+			"added_at": "2026-08-14T23:50:27.107Z",
 			"departed_at": null,
 			"baseline": false
 		},
