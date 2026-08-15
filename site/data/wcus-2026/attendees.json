@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-15T17:49:11.522Z",
-	"total": 755,
-	"rows": 767,
+	"updated_at": "2026-08-15T18:30:16.392Z",
+	"total": 756,
+	"rows": 768,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -4777,6 +4777,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "848384e9217866c13203b087bdc9672ab0e7845bdb19b77fbf43609b55ed6912",
+			"first": "Eddie",
+			"last": "Wise",
+			"job_title": "VP Strategic Growth",
+			"company": "40q.agency",
+			"company_url": "http://40q.agency",
+			"gravatar_hash": "f8214e090b5979cce67479c3d57c3f90182d4f5b48156643ceeab9b00ebf6301",
+			"added_at": "2026-08-15T18:30:16.392Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "848afb1debf4972336e4a61de5dcfd315ecfdfe69b3db731981bca652ab3d488",
