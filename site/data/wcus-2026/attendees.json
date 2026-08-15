@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-15T19:00:18.978Z",
-	"total": 757,
-	"rows": 769,
+	"updated_at": "2026-08-15T19:25:58.706Z",
+	"total": 758,
+	"rows": 770,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -5030,6 +5030,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "8ae3093d72306f55fed1b030d2201ae78dd1a998cee9c21b46c82504bf6a4ef7",
+			"first": "Guirian",
+			"last": "Gelpi",
+			"job_title": "Vendor",
+			"company": "n/a",
+			"company_url": "http://n/a",
+			"gravatar_hash": "4facb161f95507951e201f6fac09b7599f9be290a40df18f5e56e65c9e14bf16",
+			"added_at": "2026-08-15T19:25:58.706Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "8b1fce9a5336e3445ba716ef8efe75295f46d20d010afeb4849230d475f752ce",
