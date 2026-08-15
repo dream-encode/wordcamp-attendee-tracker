@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-15T17:13:19.643Z",
-	"total": 754,
-	"rows": 766,
+	"updated_at": "2026-08-15T17:49:11.522Z",
+	"total": 755,
+	"rows": 767,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2759,6 +2759,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "4e40674a646c4f5f0da1a33c7e3909ed51d5fbbc8a30a072723b0492f5a761c1",
+			"first": "Wade",
+			"last": "Danforth",
+			"job_title": "Founder | Partner",
+			"company": "inspiremarketing.io",
+			"company_url": "http://www.inspiremarketing.io/",
+			"gravatar_hash": "9c4a65633ca8e47f48b47c635b3064505ca576d7edd7775e0c974ef6023f15ec",
+			"added_at": "2026-08-15T17:49:11.522Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "4e6883ee3cadf08b8438cacc64f57284c6c34d787ab0d72f142e03e60170d476",
