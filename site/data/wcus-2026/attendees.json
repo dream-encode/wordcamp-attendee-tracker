@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-15T06:30:33.561Z",
-	"total": 748,
-	"rows": 760,
+	"updated_at": "2026-08-15T17:13:19.643Z",
+	"total": 754,
+	"rows": 766,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2389,6 +2389,18 @@
 			"baseline": true
 		},
 		{
+			"key": "456cc1ce8fb2d5f952dca0c6b8d6bce05523ba5f4367723d0254b0cf773ddc8c",
+			"first": "Mia",
+			"last": "Elvasia",
+			"job_title": "Creator",
+			"company": "blogrecode.com",
+			"company_url": "http://blogrecode.com",
+			"gravatar_hash": "14b03d529afaa9f14fa39d51954d1903e744b880b256a0e4347961bf7901bdde",
+			"added_at": "2026-08-15T17:13:19.643Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "459426f036314a85e58a641a3725edd8bd09f1a4a5369bb95c9993732e3f4f1a",
 			"first": "Justine",
 			"last": "Meyer",
@@ -2421,6 +2433,18 @@
 			"company_url": "https://www.nerdpress.net",
 			"gravatar_hash": "507f16f65971136275a157d48bf6ce234d9d090ba6f9ea227a777674c0d0e2ab",
 			"added_at": "2026-08-08T01:01:14.543Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "45fbcee778a24dc2d9419596f630b67b201be36db7674c2a4d5ca3b9a0f7e108",
+			"first": "Heral",
+			"last": "P",
+			"job_title": "Managing Director",
+			"company": "cospark.com",
+			"company_url": "https://cospark.com/",
+			"gravatar_hash": "5d37183e228d8be1e554cb43b53cd333f362d898fb2fcaf3b7f0293963c3fb32",
+			"added_at": "2026-08-15T17:13:19.643Z",
 			"departed_at": null,
 			"baseline": false
 		},
@@ -4431,6 +4455,18 @@
 			"baseline": true
 		},
 		{
+			"key": "793132a0adad9b25a7470523fd26eca4ae1efe6cd0f8c8b08f0d634065096d98",
+			"first": "Michael (Wine Legend)",
+			"last": "Fowler",
+			"job_title": "Partner Growth",
+			"company": "webpros.com",
+			"company_url": "http://webpros.com",
+			"gravatar_hash": "853c0f45f952efbd0cdcbc7c88352c25ae667fdc74d2a8641c6cb47672249775",
+			"added_at": "2026-08-15T17:13:19.643Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "799319586a6a1b80f48095504f81a06bd334624c9a590a01a2db6b7b9ed292a6",
 			"first": "April",
 			"last": "Swenson",
@@ -6413,6 +6449,18 @@
 			"baseline": true
 		},
 		{
+			"key": "b8f17a3e55df2667c51350bf0983a86b97ecf306d9f2705ce224524f77f157ea",
+			"first": "Miguel",
+			"last": "Salazar",
+			"job_title": "Operational Continuity Analyst",
+			"company": "Amazon GSOC",
+			"company_url": "http://Amazon%20GSOC",
+			"gravatar_hash": "88fad85c31208b2c7e1e57c6767147277e06ec631dcf1840cfed25b90a95c57e",
+			"added_at": "2026-08-15T17:13:19.643Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "b9219737ca7e751dd0b04ab27eeb257c2960a2246de4c25e1b70a7fc8174938f",
 			"first": "Edgar",
 			"last": "Garmendez",
@@ -7688,6 +7736,18 @@
 			"baseline": true
 		},
 		{
+			"key": "da0a2c9c7c82845f67741a3b27d0363507e35a066f6bd21f9cce194b2ee2554b",
+			"first": "Diogo",
+			"last": "Fukunaga de Carvalho",
+			"job_title": "Director of Technology",
+			"company": "studiovisual.com.br",
+			"company_url": "https://studiovisual.com.br/",
+			"gravatar_hash": "fd71d7a2ba8f9442e3423256ba2f2635d2bb29e06e741eea74055cc645751af6",
+			"added_at": "2026-08-15T17:13:19.643Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "da3b0678b2a9eea8dc096bebe00177dded836a75657c1910f3c902fd4fbaf522",
 			"first": "Ayush",
 			"last": "Ojha",
@@ -7722,6 +7782,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "dc245d58de0241593589238dbc34075cc77ebc56a9e15b34f17d51896bfc6318",
+			"first": "Dominik",
+			"last": "Sauter",
+			"job_title": "CFO",
+			"company": "saucal.com",
+			"company_url": "https://saucal.com/",
+			"gravatar_hash": "7d5b7f209b302d84f9be400946fbcfca1bde1013847a5e25d3d25f7351f2bf8f",
+			"added_at": "2026-08-15T17:13:19.643Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "dc32506d963cfa6e7b4ba3874eaeef011d5fcf62d2d7c7403ccd77ecd637d7b2",
