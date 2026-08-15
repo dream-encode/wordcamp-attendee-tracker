@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-15T18:30:16.392Z",
-	"total": 756,
-	"rows": 768,
+	"updated_at": "2026-08-15T19:00:18.978Z",
+	"total": 757,
+	"rows": 769,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2205,6 +2205,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "423d4c183a90b9363abc99eeb349fcb03a2858fbc59f4fea0d10b602fa1053fb",
+			"first": "Megan",
+			"last": "Anderelli",
+			"job_title": "Vendor",
+			"company": "n/a",
+			"company_url": "http://n/a",
+			"gravatar_hash": "4facb161f95507951e201f6fac09b7599f9be290a40df18f5e56e65c9e14bf16",
+			"added_at": "2026-08-15T19:00:18.978Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "432cd4591a7013b5662fe97ee7e4de0350e7d3e162b8f5811a850f0257c5d135",
