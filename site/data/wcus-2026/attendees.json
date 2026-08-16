@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T16:54:25.866Z",
-	"total": 768,
-	"rows": 779,
+	"updated_at": "2026-08-16T19:26:05.210Z",
+	"total": 769,
+	"rows": 780,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -5498,6 +5498,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "95788f33159ebc817494b0aff976e218c742f248ab324d0ad78120771a70eb79",
+			"first": "JT",
+			"last": "Englis",
+			"job_title": "Paraprofessional",
+			"company": "n/a",
+			"company_url": "http://n/a",
+			"gravatar_hash": "082eca30afca3ddba8ff419dd7cb7c32291b543e176b2b31ebcb712be84314b7",
+			"added_at": "2026-08-16T19:26:05.210Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "9581a001570514500c6b7e3c90fee9623284f5e987cb0b5a6a95348c8e587891",
