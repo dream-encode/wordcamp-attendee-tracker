@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-15T19:25:58.706Z",
-	"total": 758,
-	"rows": 770,
+	"updated_at": "2026-08-16T06:30:17.335Z",
+	"total": 759,
+	"rows": 771,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -6615,6 +6615,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "baefcf093c9072c0652870be09f221db943cb57c97c968267bb74a326d7dfd21",
+			"first": "franchelle",
+			"last": "frazier",
+			"job_title": "Teacher",
+			"company": "Co-opadmailer.com",
+			"company_url": "http://Co-opadmailer.com",
+			"gravatar_hash": "0c44f6c2e2689c2feab4acb6331260d6ef891f15aee7d52a5961305f1e15b07d",
+			"added_at": "2026-08-16T06:30:17.335Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "baf945000251b2d25003f8930652bcfb652cd8ff2a0fb1b4933c5b3e261587ec",
