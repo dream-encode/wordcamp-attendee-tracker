@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T19:46:45.164Z",
-	"total": 770,
-	"rows": 781,
+	"updated_at": "2026-08-16T21:47:31.291Z",
+	"total": 772,
+	"rows": 783,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7447,6 +7447,18 @@
 			"baseline": true
 		},
 		{
+			"key": "ce499212bf9e3836490e3967dfa151b1a508a372e2e847129d2acf7119108df6",
+			"first": "Valerie",
+			"last": "Blackburn",
+			"job_title": "Delivery Driver",
+			"company": "valmarketing.net",
+			"company_url": "https://www.valmarketing.net",
+			"gravatar_hash": "3f1f1c0ef1c1144880bd16a098602d8175f740fd0e487e7b3eeb925db31a0237",
+			"added_at": "2026-08-16T21:47:31.291Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "ce535a296a8489a0a7d2cf5d95aef91f64af0d933a0ed1770b7b18cd941db376",
 			"first": "Adnan",
 			"last": "Haque",
@@ -7937,6 +7949,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "daa9df84632f9673c10176778297e08fbcfaf044e4983ebea89fe34ec744f5e7",
+			"first": "Marina",
+			"last": "Marsh",
+			"job_title": "President",
+			"company": "webloftdesigns.com",
+			"company_url": "http://www.webloftdesigns.com",
+			"gravatar_hash": "f048618a2ded0035395d785b2fbd2dba455cf8605485e9bf869e3fea82d042c1",
+			"added_at": "2026-08-16T21:47:31.291Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "db0362dc856787eda7eb3e78c626b342319f471ebd05a8fd60bf63e2c4331867",
