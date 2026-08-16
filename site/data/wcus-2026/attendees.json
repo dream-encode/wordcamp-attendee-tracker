@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T06:30:17.335Z",
-	"total": 759,
-	"rows": 771,
+	"updated_at": "2026-08-16T06:51:17.454Z",
+	"total": 760,
+	"rows": 772,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7229,6 +7229,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "c962eccc37353410c3eaf80fa8b46b57fe71750220119539d67161f3e1dae0f3",
+			"first": "Amy",
+			"last": "Kamala",
+			"job_title": "Core/Hosting Team Rep",
+			"company": "kittenkamala.com",
+			"company_url": "https://kittenkamala.com/",
+			"gravatar_hash": "97891a17d737ebead37447e64a530eb0ba3ddabe7e5ea2450bbde2b705dd87fc",
+			"added_at": "2026-08-16T06:51:17.454Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "c9f3f5a8f25bb4fdda672fc8ddf64340318581f7396b4a77d2b46c7d09dd2603",
