@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T13:55:38.454Z",
-	"total": 762,
-	"rows": 774,
+	"updated_at": "2026-08-16T14:51:20.533Z",
+	"total": 763,
+	"rows": 775,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -632,6 +632,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "1120174c6c840a7437adbadc37572417ff763406c48691132eab7440370b42c3",
+			"first": "Shanda",
+			"last": "Watts",
+			"job_title": "Founder",
+			"company": "crushingpixels.com",
+			"company_url": "https://crushingpixels.com",
+			"gravatar_hash": "be716cbf9acf86cf6114e52afa9a6f8e70af83a96d7febb44df1924033a4959b",
+			"added_at": "2026-08-16T14:51:20.533Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "12e74415461ce308096ac823ce475fcb2a1616996de642919afe57d22857bd36",
