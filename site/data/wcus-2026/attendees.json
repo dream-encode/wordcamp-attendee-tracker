@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T15:48:51.678Z",
-	"total": 765,
-	"rows": 777,
+	"updated_at": "2026-08-16T16:00:15.837Z",
+	"total": 767,
+	"rows": 778,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -560,6 +560,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "0d29a2f9ef626252527080aafc8800e8451dbe2a454ecad4748b7a1a8da4b88b",
+			"first": "Vytautas",
+			"last": "Salomskas",
+			"job_title": "Hostinger",
+			"company": "Hostinger.com",
+			"company_url": "http://Hostinger.com",
+			"gravatar_hash": "2653c05fea7a22553a1024d4d93ad5f29dc7cce9b991c3e553ded15a259e52c2",
+			"added_at": "2026-08-16T16:00:15.837Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "0e6daaacc0076afaf926bd1b2d3c6a5072caefc7eba51b894abce45580970668",
@@ -1905,6 +1917,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "38ed9a9bbb7b270fac72be0321aae240e9b65d42eb53dac48974c98b7b81f83d",
+			"first": "Jeff",
+			"last": "Smith",
+			"job_title": "Director of Product",
+			"company": "Automattic",
+			"company_url": "http://Automattic",
+			"gravatar_hash": "06609232020bc3557cf49bf3f958ce9be41239d9c63e564ed3ea9618ea26b29c",
+			"added_at": "2026-08-16T16:00:15.837Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "38f055ff05d0fda684f092d83e5d86fbe28b8aa8b7ccce22f9f1505e830bf1cc",
@@ -5257,8 +5281,7 @@
 			"gravatar_hash": "1c426d0f9bfd260be203febab118b5d189230d5a77d26c20f4387c21506fa9ab",
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
-			"baseline": true,
-			"ticket_rows": 2
+			"baseline": true
 		},
 		{
 			"key": "8fdaeb67845661d9cee98148d25ddbd18f0d30a82fde51031ed0bdddefe1ccf6",
