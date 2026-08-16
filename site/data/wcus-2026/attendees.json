@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T06:51:17.454Z",
-	"total": 760,
-	"rows": 772,
+	"updated_at": "2026-08-16T07:00:12.086Z",
+	"total": 761,
+	"rows": 773,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7130,6 +7130,18 @@
 			"company_url": "http://Google",
 			"gravatar_hash": "832dfbd59be900f535e0219f5fccda5dc2bf90083c7f8ef1eaa858e4ca4bae25",
 			"added_at": "2026-08-06T22:00:50.288Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "c680afd40436357143755bd212ca4b6dbb1ad9ae98f89f3289b0f6d285289304",
+			"first": "Victor",
+			"last": "Urena",
+			"job_title": "Web Developer / Marketer",
+			"company": "EnzoDomains.com",
+			"company_url": "http://EnzoDomains.com",
+			"gravatar_hash": "89849702dd43b0fcac56adeab49b3f0cdc740d3b452f2db64793b8dc91eea413",
+			"added_at": "2026-08-16T07:00:12.086Z",
 			"departed_at": null,
 			"baseline": false
 		},
