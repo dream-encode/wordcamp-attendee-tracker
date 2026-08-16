@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T07:56:14.844Z",
-	"total": 761,
-	"rows": 773,
+	"updated_at": "2026-08-16T13:55:38.454Z",
+	"total": 762,
+	"rows": 774,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -8178,6 +8178,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "e33c7c61d5900675041df7d682c1b22a5944b800e7154907bbe752f457be2bfd",
+			"first": "John",
+			"last": "Hooks",
+			"job_title": "Software Engineering Manager",
+			"company": "Nexcess",
+			"company_url": "http://Nexcess",
+			"gravatar_hash": "ec4ef25906386b60f5f66b3d03064e3bb700bedc94ee8558918565612c74aef3",
+			"added_at": "2026-08-16T13:55:38.454Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "e37114cebdbce0b5573f5bca08f4b0ff9ec0c9c898735158f8870d09e63cdbc2",
