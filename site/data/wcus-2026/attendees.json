@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T21:47:31.291Z",
-	"total": 772,
-	"rows": 783,
+	"updated_at": "2026-08-16T22:28:15.213Z",
+	"total": 774,
+	"rows": 785,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -3575,6 +3575,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "612d05c4a3073bb4d4b28cd0900dc750e006e52da39543fb5e14262b41e1b65c",
+			"first": "Thomas",
+			"last": "Burgeson",
+			"job_title": "Owner",
+			"company": "Yavanino Creative Studio",
+			"company_url": "http://Yavanino%20Creative%20Studio",
+			"gravatar_hash": "ab18fe1f24e687c73d0ec78a959bfa8d1204d68f323b30400a6edb560891dfb9",
+			"added_at": "2026-08-16T22:28:15.213Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "616739727789f6de0f24df04e9f8369c52d40b3c75adac6c5f732267ad1a024d",
@@ -8873,6 +8885,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "f284c6c0e301f6a1214cb68aab845da61ad1f89eee50ba3ce406cb340ab530ce",
+			"first": "Emanuel",
+			"last": "Adelson",
+			"job_title": "Partnerships",
+			"company": "Nexcess.com",
+			"company_url": "http://Nexcess.com",
+			"gravatar_hash": "c5419cac89675ad0e85787900c5342edbe16953840b9dba2e3eda785c1d08268",
+			"added_at": "2026-08-16T22:28:15.213Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "f2f6ad1cb437c726a18776ac78890aec518004c4e08fbd2a73059b98cd14672f",
