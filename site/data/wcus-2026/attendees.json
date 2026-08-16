@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T15:28:20.859Z",
-	"total": 764,
-	"rows": 776,
+	"updated_at": "2026-08-16T15:48:51.678Z",
+	"total": 765,
+	"rows": 777,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -637,7 +637,7 @@
 			"key": "1120174c6c840a7437adbadc37572417ff763406c48691132eab7440370b42c3",
 			"first": "Shanda",
 			"last": "Watts",
-			"job_title": "Founder",
+			"job_title": "Agency Owner",
 			"company": "crushingpixels.com",
 			"company_url": "https://crushingpixels.com",
 			"gravatar_hash": "be716cbf9acf86cf6114e52afa9a6f8e70af83a96d7febb44df1924033a4959b",
@@ -5773,6 +5773,18 @@
 			"company_url": "https://kidizona.com",
 			"gravatar_hash": "705b8ae8f76143dafbb55496561d04029d16905c9e563aee5141dcff2b0aef83",
 			"added_at": "2026-08-14T17:30:36.164Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "9e9e19db9e416717473f9bf025faeff1cb9ef8ff1944fd7e1b635a9f2526cb87",
+			"first": "George",
+			"last": "Lerner",
+			"job_title": "President",
+			"company": "WP-Website-Mastery.com",
+			"company_url": "https://WP-Website-Mastery.com",
+			"gravatar_hash": "4b1a9fb438413914f7ee45cd76b59a3e5773307c1650d1d02c06be727c49c0a5",
+			"added_at": "2026-08-16T15:48:51.678Z",
 			"departed_at": null,
 			"baseline": false
 		},
