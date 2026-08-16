@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T19:26:05.210Z",
-	"total": 769,
-	"rows": 780,
+	"updated_at": "2026-08-16T19:46:45.164Z",
+	"total": 770,
+	"rows": 781,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -8475,6 +8475,18 @@
 			"company_url": "http://self",
 			"gravatar_hash": "e024aacfc03f443a45d4ad81cdd3b1a2a5bc0e8f3231a9106da962f4446f4994",
 			"added_at": "2026-08-13T17:00:35.865Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "e79412cd53699815d40ee188f005659c818bdb6977a4afcf0fa6660615516f83",
+			"first": "Barry",
+			"last": "Abrahamson",
+			"job_title": "Systems Wrangler",
+			"company": "barry.blog",
+			"company_url": "http://barry.blog",
+			"gravatar_hash": "068b4bacad347c5646814baffb24c50033eb941925d275d056c29e416b024839",
+			"added_at": "2026-08-16T19:46:45.164Z",
 			"departed_at": null,
 			"baseline": false
 		},
