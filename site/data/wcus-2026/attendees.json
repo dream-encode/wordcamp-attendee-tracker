@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T14:51:20.533Z",
-	"total": 763,
-	"rows": 775,
+	"updated_at": "2026-08-16T15:28:20.859Z",
+	"total": 764,
+	"rows": 776,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2109,6 +2109,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "3f13c1944fc4561c182beb71fc41c288ffcde80d5474cc8026f9913089a65ca8",
+			"first": "Kristina",
+			"last": "Strimaite",
+			"job_title": "Hostinger",
+			"company": "hostinger.com",
+			"company_url": "http://hostinger.com",
+			"gravatar_hash": "9a6ba946f410a2143f8f6a224a0617287580688eca3f887fc99f27e59298191d",
+			"added_at": "2026-08-16T15:28:20.859Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "3f2577ff5839e44f5922097bb250df44beed13e0eb43f914b7639a13b8b83f71",
