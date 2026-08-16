@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T16:00:15.837Z",
-	"total": 767,
-	"rows": 778,
+	"updated_at": "2026-08-16T16:54:25.866Z",
+	"total": 768,
+	"rows": 779,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -6997,6 +6997,18 @@
 			"company_url": "http://www.relentless-digital.com",
 			"gravatar_hash": "c5af4c5b999efe7af1c3959ac9509dac30811c7076c4e91ab80fd72e24e9c78b",
 			"added_at": "2026-08-07T16:01:16.138Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "c0ff83cb4f54488aab3c97b3fd7fe052955002349c0b3ac8426a62cf7cc54c7b",
+			"first": "Ted",
+			"last": "Kapner",
+			"job_title": "President & CEO",
+			"company": "everywhererightnow.com",
+			"company_url": "https://everywhererightnow.com/",
+			"gravatar_hash": "bb1b71750463766da1c1bb0f071c67d6e3a41c3c75e0825f61b7de7459573012",
+			"added_at": "2026-08-16T16:54:25.866Z",
 			"departed_at": null,
 			"baseline": false
 		},
