@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T02:30:13.449Z",
-	"total": 776,
-	"rows": 787,
+	"updated_at": "2026-08-17T03:00:13.493Z",
+	"total": 778,
+	"rows": 789,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -344,6 +344,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "07ac3bd392b7db0488c79fd0acff5ff296a07b8319ce2fcf234f7ce5cdfdd2e6",
+			"first": "Zak",
+			"last": "Goldwasser",
+			"job_title": "Frontend Developer",
+			"company": "goldwasser.xyz",
+			"company_url": "http://goldwasser.xyz",
+			"gravatar_hash": "85fab5f701378cfe156c2170817ee3128bc11f93ad29cbee92e6ccb2b8fcfe5f",
+			"added_at": "2026-08-17T03:00:13.493Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "07f7b3b9cda8035138f31d434982ff196bdf819a3e6e9cf78173716f056202c8",
@@ -3263,6 +3275,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "5a68e6701e7ae407eca1d872f097148e4d38d178ddda42162365ed9cd76d5232",
+			"first": "Andrew",
+			"last": "Wikel",
+			"job_title": "Technical Program & Product Leader",
+			"company": "getgymcore.com",
+			"company_url": "http://getgymcore.com",
+			"gravatar_hash": "a6cb76df98b95ecf4e8bc3012091baa239b5b4c774df1575a52a7a3d1d646790",
+			"added_at": "2026-08-17T03:00:13.493Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "5a977db48fe6de9511c05d045605b4a04b366e83c2ea610022afcad979119bdd",
