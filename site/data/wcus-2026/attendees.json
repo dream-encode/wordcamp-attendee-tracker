@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T01:45:10.564Z",
-	"total": 775,
-	"rows": 786,
+	"updated_at": "2026-08-17T02:30:13.449Z",
+	"total": 776,
+	"rows": 787,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7877,6 +7877,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "d84d03c6ff11054064ca8db87b9170885c9bd6ea003f09e4effb0acc9bec2264",
+			"first": "Leese",
+			"last": "Courington-DePass",
+			"job_title": "Owner",
+			"company": "wymanink.com",
+			"company_url": "http://wymanink.com",
+			"gravatar_hash": "0a8d6317365d2e04e36268d11587f5dbe51805c22fccdf4e1c20498e9817ade4",
+			"added_at": "2026-08-17T02:30:13.449Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "d86f47067afc642ca214eb61b03ba30e4536045ef937a8414a9e9e1925127dd8",
