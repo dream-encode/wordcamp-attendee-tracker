@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-16T22:28:15.213Z",
-	"total": 774,
-	"rows": 785,
+	"updated_at": "2026-08-17T01:45:10.564Z",
+	"total": 775,
+	"rows": 786,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -6903,6 +6903,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "bea6d0ac39dbe712ee3eca71ec19c5d4713d75690791c833afe32a1009b1a3d5",
+			"first": "Pedro",
+			"last": "Ramos",
+			"job_title": "Marketing",
+			"company": "Turn7.io",
+			"company_url": "http://Turn7.io",
+			"gravatar_hash": "c15246a9e9106791467087d10e2bfc6a514dd9b7d1f3c17444a6bf0882752dca",
+			"added_at": "2026-08-17T01:45:10.564Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "bebe131989bc3a3f70772518f22ca54903e578f25f75c221acc972bd68513091",
