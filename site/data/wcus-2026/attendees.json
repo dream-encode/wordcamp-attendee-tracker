@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T18:49:26.155Z",
-	"total": 788,
-	"rows": 799,
+	"updated_at": "2026-08-17T19:30:15.173Z",
+	"total": 789,
+	"rows": 800,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -630,6 +630,18 @@
 			"company_url": "https://hostingone.com",
 			"gravatar_hash": "18381b1b75f1bc4dce67864f27a4ff0a84eb83f47f77889a23247dde8f8fb5f3",
 			"added_at": "2026-08-14T17:55:57.415Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "0fbc2eb6bb4815eb6d597aeeaab7addc9bc5031ad913e5968e7d1a2f1ea31443",
+			"first": "Simon",
+			"last": "Swenson",
+			"job_title": "Engineering Student",
+			"company": "simonswenson.com",
+			"company_url": "http://simonswenson.com",
+			"gravatar_hash": "26f2c457266b656a4173c92be3b5e891ab0000da5f0ae6558b07b57573ed4658",
+			"added_at": "2026-08-17T19:30:15.173Z",
 			"departed_at": null,
 			"baseline": false
 		},
