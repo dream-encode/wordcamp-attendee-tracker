@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T19:53:20.804Z",
-	"total": 790,
-	"rows": 801,
+	"updated_at": "2026-08-17T21:52:18.550Z",
+	"total": 791,
+	"rows": 802,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -4465,6 +4465,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "74a081a16e48c2dfa489c575ef9790824fd804a3f22dfefed59f32a314ebe720",
+			"first": "John",
+			"last": "Kelly",
+			"job_title": "CRO – WordPress VIP",
+			"company": "wpvip.com",
+			"company_url": "http://www.wpvip.com",
+			"gravatar_hash": "729f6eebb1f933d567a47a574e77750601319d6e5da3436ac9c23df7f086c9e8",
+			"added_at": "2026-08-17T21:52:18.550Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "74db78e495940de7f3b070f779f804bf5ede531159179e3d3bc0a2c943d74353",
