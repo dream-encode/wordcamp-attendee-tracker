@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T21:52:18.550Z",
-	"total": 791,
-	"rows": 802,
+	"updated_at": "2026-08-17T22:52:08.881Z",
+	"total": 792,
+	"rows": 803,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -8081,6 +8081,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "d8cb48a741dff6bda59f4bb514de5088ca21e27add88bd40b17ac0bfad29757f",
+			"first": "Molly",
+			"last": "Lane",
+			"job_title": "Director, Content Marketing",
+			"company": "wordpress.com",
+			"company_url": "http://wordpress.com",
+			"gravatar_hash": "a9b9a3d8ee374e43985148dfa208b79d0d852747b4f317f6d4bd94e51838e270",
+			"added_at": "2026-08-17T22:52:08.881Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "d935af4fc6598bd1dc4dfb2d1767492612485b6712eb1c540ad6fdc80dca96bf",
