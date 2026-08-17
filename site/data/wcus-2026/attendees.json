@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T03:00:13.493Z",
-	"total": 778,
-	"rows": 789,
+	"updated_at": "2026-08-17T04:00:13.535Z",
+	"total": 781,
+	"rows": 792,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -3927,6 +3927,18 @@
 			"baseline": true
 		},
 		{
+			"key": "69d8ccf86f737cd040a3f877fb8254efa9f4bc863c6600e8a273cc085b75a0ea",
+			"first": "Danielle",
+			"last": "LoPreste",
+			"job_title": "Owner",
+			"company": "ClearPath Web Accessibility",
+			"company_url": "http://ClearPath%20Web%20Accessibility",
+			"gravatar_hash": "adb08c3ee51c7558aae780bf41fe61363f4bcfe0f59960b6421ee5e1a5f214db",
+			"added_at": "2026-08-17T04:00:13.535Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
 			"key": "6a030282f10c4295d013a2223d3ec1a2ce654034e5578e5eef705a019022b64c",
 			"first": "Katie",
 			"last": "Thompson",
@@ -4789,6 +4801,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "8159b676cbc1a5d8c4bba7299607fdda0ca35c60c36d50f240912fb41af3e074",
+			"first": "Joseph",
+			"last": "LoPreste",
+			"job_title": "Accessibility Specialist",
+			"company": "508accessible.com",
+			"company_url": "https://508accessible.com/",
+			"gravatar_hash": "9ce632ce89f7daa058e7bcd8eab9b120577b71864729e14e66716fd2007d43ba",
+			"added_at": "2026-08-17T04:00:13.535Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "83442d356710649173f0d76cb6cb17986d5f8b7c462b6ee71ff59287baa1b5ab",
@@ -6228,6 +6252,18 @@
 			"company_url": "http://homeprodigital.com",
 			"gravatar_hash": "b26b7d2c6c53b45b53034e65a319d0b2f1d214930dd562e00364c869390d5c33",
 			"added_at": "2026-08-12T18:01:15.129Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "a98d774c0c79d76a9e7709e5d1fd8b611a4c6ab24caf9030e3c5f84a4536fd78",
+			"first": "Josh",
+			"last": "Lipton",
+			"job_title": "Founder",
+			"company": "CampfireCycling.com",
+			"company_url": "http://CampfireCycling.com",
+			"gravatar_hash": "cdbfb5e3ddeabbc9160f8edfc48e8712828aed5cb62548836811100b9a0c92c2",
+			"added_at": "2026-08-17T04:00:13.535Z",
 			"departed_at": null,
 			"baseline": false
 		},
