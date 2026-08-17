@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T19:30:15.173Z",
-	"total": 789,
-	"rows": 800,
+	"updated_at": "2026-08-17T19:53:20.804Z",
+	"total": 790,
+	"rows": 801,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1363,6 +1363,18 @@
 			"company_url": "http://opensrs.com",
 			"gravatar_hash": "64d721585ff64d8a46cb6530b991c5465520f0314b54b07990548d7e4cff3aba",
 			"added_at": "2026-08-12T15:01:15.497Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "27e95c7533b33a28fd21ee7ed21b442732b43ca86d91827241a1d923ac7ebf43",
+			"first": "Ben",
+			"last": "Babassana",
+			"job_title": "System designer and Business analyst",
+			"company": "pontnumerique.org/en/home",
+			"company_url": "https://pontnumerique.org/en/home/",
+			"gravatar_hash": "769772ce97b6f6ceb50ea5f98a27121b2cfe714dde4d84c1848b150d8b734c44",
+			"added_at": "2026-08-17T19:53:20.804Z",
 			"departed_at": null,
 			"baseline": false
 		},
