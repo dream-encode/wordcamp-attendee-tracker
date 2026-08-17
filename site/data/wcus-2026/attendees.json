@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T04:00:13.535Z",
-	"total": 781,
-	"rows": 792,
+	"updated_at": "2026-08-17T05:30:17.605Z",
+	"total": 782,
+	"rows": 793,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -6951,6 +6951,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": "2026-08-05T18:42:56.270Z",
 			"baseline": true
+		},
+		{
+			"key": "be8fb2467f7fa2901851e3627bf8c3eaf70ff2458bf1664f25e56993b648548b",
+			"first": "Maura",
+			"last": "Teal",
+			"job_title": "SEM",
+			"company": "mlteal.com",
+			"company_url": "https://mlteal.com",
+			"gravatar_hash": "7ee3ab3a4d845bd81f83e6152442fbc62c512ab6c1bb34820099c9c6269c63b9",
+			"added_at": "2026-08-17T05:30:17.605Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "be9e62dd9d5208938120131961e13aa61d13696691b8e96c503692a35560378b",
