@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T17:30:16.976Z",
-	"total": 787,
-	"rows": 798,
+	"updated_at": "2026-08-17T18:49:26.155Z",
+	"total": 788,
+	"rows": 799,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7478,6 +7478,18 @@
 			"company_url": "https://kittenkamala.com/",
 			"gravatar_hash": "97891a17d737ebead37447e64a530eb0ba3ddabe7e5ea2450bbde2b705dd87fc",
 			"added_at": "2026-08-16T06:51:17.454Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "c9c75b2f365c4df599e8995d4b91d92039d84c3476dbad963d6008937a0ada44",
+			"first": "Joshua",
+			"last": "Yanow",
+			"job_title": "Owner",
+			"company": "woncreative.com",
+			"company_url": "https://woncreative.com",
+			"gravatar_hash": "bea3ffe8b071642340c6ab11559ccf4a0bc0fee8ac3307f6de4553c5fbc2d801",
+			"added_at": "2026-08-17T18:49:26.155Z",
 			"departed_at": null,
 			"baseline": false
 		},
