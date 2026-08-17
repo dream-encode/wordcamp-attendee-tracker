@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T14:30:14.849Z",
-	"total": 784,
-	"rows": 795,
+	"updated_at": "2026-08-17T14:35:19.303Z",
+	"total": 785,
+	"rows": 796,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2483,6 +2483,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "45acfe5ec465775c6a82ff459c5f773cf6b7634915e836ea3fb6b02f364dd1e1",
+			"first": "Adam",
+			"last": "Mayes",
+			"job_title": "Installation Technician",
+			"company": "sswireless.net",
+			"company_url": "https://sswireless.net",
+			"gravatar_hash": "3ee9cebb367be2bc934fc5da0569c63513b50662b7feba86a7d0467c8460921f",
+			"added_at": "2026-08-17T14:35:19.303Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "45b642e7a373bc86788cfbce921e4b699b5ce734b3cd525fdd1ac0a4fd2443bf",
