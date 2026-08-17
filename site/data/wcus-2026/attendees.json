@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T08:30:12.939Z",
-	"total": 783,
-	"rows": 794,
+	"updated_at": "2026-08-17T14:30:14.849Z",
+	"total": 784,
+	"rows": 795,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -4981,6 +4981,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "85c205036c30f6b155ac235cdb39a7446ae947c542f1f1cdcc8b8373fc1cfd12",
+			"first": ".Adam",
+			"last": "Silver.",
+			"job_title": "Podcaster",
+			"company": "kitchensinkwp.com",
+			"company_url": "https://kitchensinkwp.com/",
+			"gravatar_hash": "fea356ff2c99db4c967b96a8cedbf3232188f23bb3cc1ed337dd48863424f385",
+			"added_at": "2026-08-17T14:30:14.849Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "85e20b06b7ff94c86ab15c46a67ccac424bba071088fba8c3a839cdf64b22be1",
