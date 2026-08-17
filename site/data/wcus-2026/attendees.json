@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T05:30:17.605Z",
-	"total": 782,
-	"rows": 793,
+	"updated_at": "2026-08-17T08:30:12.939Z",
+	"total": 783,
+	"rows": 794,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -9041,6 +9041,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "f38b038e30d45221372e32747f2a278f0a3d7a9baf391d3cfdd54e498edb0d26",
+			"first": "Leo",
+			"last": "Mystic",
+			"job_title": "Owner Artist",
+			"company": "AstralMystic.com",
+			"company_url": "https://AstralMystic.com",
+			"gravatar_hash": "83d8032ccec96f8f55d744b779285421da9696de633fbd8d9e5644b5229d0c68",
+			"added_at": "2026-08-17T08:30:12.939Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "f3c7b2051d520c399fbbbe6ea57f16de7d3d59c6abcfbe5b8dc6127d4b47067c",
