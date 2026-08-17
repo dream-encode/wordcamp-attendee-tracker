@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T14:35:19.303Z",
-	"total": 785,
-	"rows": 796,
+	"updated_at": "2026-08-17T15:30:16.292Z",
+	"total": 787,
+	"rows": 798,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -173,7 +173,7 @@
 			"company_url": "https://EnrichLoans.com",
 			"gravatar_hash": "9711d17d0f6d2884298a555de5b383b4c369b66993559830ae0c7da7749166fe",
 			"added_at": "2026-08-12T01:01:09.590Z",
-			"departed_at": null,
+			"departed_at": "2026-08-17T15:30:16.292Z",
 			"baseline": false
 		},
 		{
@@ -2145,6 +2145,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "3e59a60248eb17e5722be1a18fa0f5ae2b9ae74deb930695792f1e386c077758",
+			"first": "Jen",
+			"last": "Miller",
+			"job_title": "Director of Marketing",
+			"company": "EnrichLoans.com",
+			"company_url": "https://EnrichLoans.com",
+			"gravatar_hash": "d15d20e32769fc0a63533e45d5df488ee788a684daf921cb98caae09e71ab1d4",
+			"added_at": "2026-08-17T15:30:16.292Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "3f13c1944fc4561c182beb71fc41c288ffcde80d5474cc8026f9913089a65ca8",
@@ -4537,6 +4549,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "7826aec4ab5d979d53dac485721f96f36b05c809fc5ae429ac3a17c33f598b94",
+			"first": "Lynn",
+			"last": "Griffith",
+			"job_title": "Code Wrangler",
+			"company": "Automattic",
+			"company_url": "http://Automattic",
+			"gravatar_hash": "b3a44da7ccdb8a777de3d0a2e98c4fdb4522428e094f5de733be05e46d10dc77",
+			"added_at": "2026-08-17T15:30:16.292Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "788134be6b9efa546b7d6a4591956332b0fa0932080f40635d1a40e285dd7d16",
@@ -8705,6 +8729,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "eb05f8b7d1345b33ccc0861e8ba6c5de716ac3120a4149514162550095d8dbeb",
+			"first": "Tiffany",
+			"last": "Smith",
+			"job_title": "Customer Success Associate",
+			"company": "shorthand.com",
+			"company_url": "https://shorthand.com/",
+			"gravatar_hash": "a4eaeace3992a948c9ee8e9bd42505d2f076105e3a6f95867d8745f9cbefcb57",
+			"added_at": "2026-08-17T15:30:16.292Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "eb1e8091f5028b705c4f8b22ba8593592b543dd075e254abf1f4494675b4044c",
