@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-18T01:01:04.831Z",
-	"total": 794,
-	"rows": 805,
+	"updated_at": "2026-08-18T13:31:03.063Z",
+	"total": 795,
+	"rows": 806,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -5941,6 +5941,18 @@
 			"gravatar_hash": "2fb14c9a6164f05ac6245fe4397b03979809b05c7d40e3b3a281a097e7d621dc",
 			"added_at": "2026-08-13T20:55:54.973Z",
 			"departed_at": "2026-08-13T21:53:57.140Z",
+			"baseline": false
+		},
+		{
+			"key": "9d1e768404106c39acbb9e89f343d4bca71f5e6eb720383d00bef1c0f2fee57a",
+			"first": "Dennis",
+			"last": "Bridgeforth",
+			"job_title": "Digital Marketeer",
+			"company": "ncsssi.com",
+			"company_url": "http://www.ncsssi.com",
+			"gravatar_hash": "e3af63752017c8029d2c92294b7ac71c51a2656cdb5cd989cf128b0579741510",
+			"added_at": "2026-08-18T13:31:03.063Z",
+			"departed_at": null,
 			"baseline": false
 		},
 		{
