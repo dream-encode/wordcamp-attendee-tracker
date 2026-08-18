@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-18T16:01:03.323Z",
-	"total": 797,
-	"rows": 808,
+	"updated_at": "2026-08-18T17:31:08.119Z",
+	"total": 799,
+	"rows": 810,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -2927,6 +2927,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "4e93b8d10d8477f1a5b243e10ce9bc3619994f797843fb412290b3f9eb4ca47c",
+			"first": "Jeremy",
+			"last": "Pollock",
+			"job_title": "VP Product",
+			"company": "wpengine.com",
+			"company_url": "http://wpengine.com",
+			"gravatar_hash": "19cae8433552b79151a92b9ded341b025e01595f38fe9e2e6e4b1f191868857f",
+			"added_at": "2026-08-18T17:31:08.119Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "4ecf51dfa0ab905b2b117584cfc87d02f342580a0cae0899770331e6264cbba1",
@@ -9269,6 +9281,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "f44b261f6cb279af247a2092bb556fcc233949beb8e35829a57ee584b490beb7",
+			"first": "Tom",
+			"last": "arriola",
+			"job_title": "Mastermind",
+			"company": "shop.crimescene.com",
+			"company_url": "http://shop.crimescene.com",
+			"gravatar_hash": "003f289f61a385915c02f1c5ba0ed3bcd6712c6e9468d8d4defc39fb9ae9d058",
+			"added_at": "2026-08-18T17:31:08.119Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "f4af831451dbea3739a01efde8988e950f81a48535d84b82615f5d854b4f19bc",
