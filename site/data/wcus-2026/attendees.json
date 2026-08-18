@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-18T17:31:08.119Z",
-	"total": 799,
-	"rows": 810,
+	"updated_at": "2026-08-18T21:49:58.668Z",
+	"total": 800,
+	"rows": 811,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1101,6 +1101,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "1d1cee04bcaef91b4770fc23013d7aaac71f0a3f50e4bcf2f46d568b17d71e1f",
+			"first": "Lance",
+			"last": "Robbins",
+			"job_title": "Founder",
+			"company": "keelhr.com",
+			"company_url": "http://keelhr.com",
+			"gravatar_hash": "ada77e3bdfff9eb70fb9087866cbfdb054a33a7c82c4435a144c2b105813275a",
+			"added_at": "2026-08-18T21:49:58.668Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "1d9f6d136754a06de31dee7ef8b2c16802d450c183d9597e369ce72dc2668dbe",
