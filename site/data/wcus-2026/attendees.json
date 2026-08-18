@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-17T22:52:08.881Z",
-	"total": 792,
-	"rows": 803,
+	"updated_at": "2026-08-18T01:01:04.831Z",
+	"total": 794,
+	"rows": 805,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1545,6 +1545,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "2e68662888e2de9c215b1163d5e4b11770e762276f5187c19dd150945384edde",
+			"first": "ALEX",
+			"last": "BRAUD",
+			"job_title": "DIRECTOR OF DEVELOPMENT",
+			"company": "HTTPS//LT.AGENCY",
+			"company_url": "http://HTTPS://LT.AGENCY",
+			"gravatar_hash": "94f8523b3e1df17c0cc8e7edfa2f8e6edcd494b0895b09ff3b392786099e83ee",
+			"added_at": "2026-08-18T01:01:04.831Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "2f902f06f37534ecca3507090048c2da1585886e8a46ec9e282e3f22f302cb1e",
@@ -4883,6 +4895,18 @@
 			"company_url": "https://508accessible.com/",
 			"gravatar_hash": "9ce632ce89f7daa058e7bcd8eab9b120577b71864729e14e66716fd2007d43ba",
 			"added_at": "2026-08-17T04:00:13.535Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "8165e045a6dbf3564a9faca4bd71c40530708f93cb4147ad9b3ef919ca7539ac",
+			"first": "LARISSA",
+			"last": "GARZA",
+			"job_title": "DEV Coordinator",
+			"company": "lt.agency",
+			"company_url": "https://lt.agency",
+			"gravatar_hash": "2fba34ba8e6a3209b69b6ae9a6e78062a1a3260d4a04d039ef293499b69b498c",
+			"added_at": "2026-08-18T01:01:04.831Z",
 			"departed_at": null,
 			"baseline": false
 		},
