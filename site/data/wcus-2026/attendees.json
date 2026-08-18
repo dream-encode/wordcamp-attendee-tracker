@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-18T13:31:03.063Z",
-	"total": 795,
-	"rows": 806,
+	"updated_at": "2026-08-18T15:01:05.502Z",
+	"total": 796,
+	"rows": 807,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -3912,6 +3912,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "687712de69acbc09ba79f8b09a978df6885c42ee0b88329b0844b08f86f5b68c",
+			"first": "Devin",
+			"last": "Walker",
+			"job_title": "Jetpack",
+			"company": "devin.org",
+			"company_url": "http://devin.org",
+			"gravatar_hash": "c124c093bb9f50a0190286dec1e4eee35f13b80de1746611730181962cb990fe",
+			"added_at": "2026-08-18T15:01:05.502Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "6894abc5ab1b177c81f693e97e0d9ee150a3f4e288d7635f8db5f8b3bbb0d8a4",
