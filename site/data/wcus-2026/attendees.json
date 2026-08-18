@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-18T21:49:58.668Z",
-	"total": 800,
-	"rows": 811,
+	"updated_at": "2026-08-18T23:01:01.490Z",
+	"total": 801,
+	"rows": 812,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7622,6 +7622,18 @@
 			"company_url": "http://Automattic",
 			"gravatar_hash": "024bc580328d02fd2c41e20332869097e328646cdce905eabbe69db5f33404e5",
 			"added_at": "2026-08-10T17:56:19.631Z",
+			"departed_at": null,
+			"baseline": false
+		},
+		{
+			"key": "cb01432334b0effcae2a96fc14e539e7040cd448017f2f950ce2d58223e81de2",
+			"first": "Kyle",
+			"last": "Sorenson",
+			"job_title": "CRO",
+			"company": "ajilemedia.com",
+			"company_url": "http://ajilemedia.com",
+			"gravatar_hash": "691b107cc9016834905302c872ba16941b8a323ba3e96aacf29f1c1860b25991",
+			"added_at": "2026-08-18T23:01:01.490Z",
 			"departed_at": null,
 			"baseline": false
 		},
