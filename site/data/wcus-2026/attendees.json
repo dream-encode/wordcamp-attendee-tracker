@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-18T15:01:05.502Z",
-	"total": 796,
-	"rows": 807,
+	"updated_at": "2026-08-18T16:01:03.323Z",
+	"total": 797,
+	"rows": 808,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -1869,6 +1869,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "36488de1d4dbd73852f30ebf374433d4aca1bbcd46d18acc5233b74024ee943e",
+			"first": "Courtney",
+			"last": "McCune",
+			"job_title": "Content Manager",
+			"company": "Courtneymccune.com",
+			"company_url": "http://Courtneymccune.com",
+			"gravatar_hash": "ed28c3d567a2108c056290b65beb06900ea2f53b4557b557fd167b426c6904df",
+			"added_at": "2026-08-18T16:01:03.323Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "3650f7adc2738b3d6789221d805995c3941f012eeefffd381df0577010c488f9",
