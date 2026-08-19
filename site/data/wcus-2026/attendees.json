@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-19T06:31:05.294Z",
-	"total": 801,
-	"rows": 812,
+	"updated_at": "2026-08-19T18:44:19.105Z",
+	"total": 802,
+	"rows": 813,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -7985,6 +7985,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "d4f3047f0cff54ed939ef71143fc88da087d92244ce6c0478014cf62c73416e7",
+			"first": "Nayeli",
+			"last": "Moreno",
+			"job_title": "Artists",
+			"company": "na",
+			"company_url": "http://na",
+			"gravatar_hash": "887c244bef7a78655e13ba506f19bdc06380f603ad8cc16bcae7dff8308a911f",
+			"added_at": "2026-08-19T18:44:19.105Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "d5095713ffbf3ffaf8806ca4bc3d74f831f6e9bf4f215e0a70517283c1184001",
