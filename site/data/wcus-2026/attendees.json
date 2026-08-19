@@ -4,9 +4,9 @@
 	"location": "Phoenix, AZ",
 	"source_url": "https://us.wordcamp.org/2026/attendees/",
 	"tracking_started_at": "2026-08-04T18:40:39.884Z",
-	"updated_at": "2026-08-19T18:44:19.105Z",
-	"total": 802,
-	"rows": 813,
+	"updated_at": "2026-08-19T21:31:09.700Z",
+	"total": 803,
+	"rows": 814,
 	"attendees": [
 		{
 			"key": "007da30eaa564fd8b6d5849e527be8fdb88cc5926e353c36343ecc5675bd6e14",
@@ -849,6 +849,18 @@
 			"added_at": "2026-08-04T18:40:39.884Z",
 			"departed_at": null,
 			"baseline": true
+		},
+		{
+			"key": "1718fe116528c4cc87f3dc02cb44aa4390add9c9a8e77331e4f5adde63b17eba",
+			"first": "Mary",
+			"last": "Mclean",
+			"job_title": "Marketeer",
+			"company": "vietek.com",
+			"company_url": "http://www.vietek.com",
+			"gravatar_hash": "eb8831baaf5b2e6fdb04892b42de567ec9e40070b07edb1ff1a1449feabe481f",
+			"added_at": "2026-08-19T21:31:09.700Z",
+			"departed_at": null,
+			"baseline": false
 		},
 		{
 			"key": "17c17dc06640bed0fcb5729ec82622368c0e4e5f7c6f5b6ac893350b6acc36bf",
